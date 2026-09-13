@@ -1,0 +1,6 @@
+interface:
+  display_name: "Visio Academic Diagrams"
+  short_description: "论文理解、科研图设计与可核验的Visio手工操作"
+  default_prompt: "使用 $visio-academic-diagrams，先核对论文思路与证据，再设计适当图种，给出Visio操作和验证步骤。"
+policy:
+  allow_implicit_invocation: true

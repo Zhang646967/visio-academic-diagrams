@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "title": "Generic iterative optimization workflow",
+  "diagram_type": "algorithm",
+  "environment": {
+    "platform": "desktop",
+    "version": "unconfirmed",
+    "ui_language": "zh-CN with English anchors",
+    "coordinate_origin": "bottom-left",
+    "pin": "center",
+    "drawing_scale": 1
+  },
+  "publication": {
+    "profile": "generic_draft",
+    "journal": "unknown",
+    "final_width_mm": 180,
+    "uniform_scale": true,
+    "raster_dpi": 1000,
+    "requirements_status": "unconfirmed; dpi is a design example, not a journal mandate"
+  },
+  "canvas": {
+    "width_mm": 180,
+    "height_mm": 130,
+    "margin_mm": 6
+  },
+  "style": {
+    "font_family": "Arial",
+    "font_pt": 8.5,
+    "line_pt": 0.75,
+    "fill": "white",
+    "stroke": "black"
+  },
+  "quality": {
+    "min_final_font_pt": 8,
+    "min_final_line_pt": 0.5,
+    "note": "本包提示阈值，不是期刊认证标准。"
+  },
+  "assumptions": [
+    "This is an illustrative workflow, not the user’s actual algorithm.",
+    "T_max is a nonnegative integer.",
+    "Initialization and candidate generation return feasible candidates in finite time.",
+    "Evaluation and best-so-far updates terminate.",
+    "The stopping test follows each evaluation, so T_max updates imply T_max+1 evaluations.",
+    "No crop or nonuniform scaling after export is assumed.",
+    "On the first evaluation, initialize the best-so-far solution from the current candidate; later evaluations compare using the problem objective."
+  ],
+  "nodes": [
+    {
+      "id": "N0",
+      "label": "Start",
+      "type": "start",
+      "x_mm": 62,
+      "y_mm": 118,
+      "width_mm": 28,
+      "height_mm": 8
+    },
+    {
+      "id": "N1",
+      "label": "Problem data and\nalgorithm parameters",
+      "type": "input_output",
+      "x_mm": 62,
+      "y_mm": 101,
+      "width_mm": 70,
+      "height_mm": 12
+    },
+    {
+      "id": "N2",
+      "label": "Initialize feasible candidate;\nset t = 0",
+      "type": "process",
+      "x_mm": 62,
+      "y_mm": 83,
+      "width_mm": 70,
+      "height_mm": 12
+    },
+    {
+      "id": "N3",
+      "label": "Evaluate candidate;\nupdate best-so-far solution",
+      "type": "process",
+      "x_mm": 62,
+      "y_mm": 63,
+      "width_mm": 70,
+      "height_mm": 14
+    },
+    {
+      "id": "N4",
+      "label": "t ≥ T_max?",
+      "type": "decision",
+      "x_mm": 62,
+      "y_mm": 38,
+      "width_mm": 40,
+      "height_mm": 18
+    },
+    {
+      "id": "N5",
+      "label": "Generate next feasible candidate;\nt ← t + 1",
+      "type": "process",
+      "x_mm": 62,
+      "y_mm": 14,
+      "width_mm": 70,
+      "height_mm": 14
+    },
+    {
+      "id": "N6",
+      "label": "Output best-so-far\nsolution",
+      "type": "input_output",
+      "x_mm": 137,
+      "y_mm": 38,
+      "width_mm": 52,
+      "height_mm": 14
+    },
+    {
+      "id": "N7",
+      "label": "End",
+      "type": "end",
+      "x_mm": 137,
+      "y_mm": 17,
+      "width_mm": 24,
+      "height_mm": 8
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "from": "N0",
+      "to": "N1",
+      "label": "",
+      "points_mm": [
+        [
+          62,
+          114
+        ],
+        [
+          62,
+          107
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E2",
+      "from": "N1",
+      "to": "N2",
+      "label": "",
+      "points_mm": [
+        [
+          62,
+          95
+        ],
+        [
+          62,
+          89
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E3",
+      "from": "N2",
+      "to": "N3",
+      "label": "",
+      "points_mm": [
+        [
+          62,
+          77
+        ],
+        [
+          62,
+          70
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E4",
+      "from": "N3",
+      "to": "N4",
+      "label": "",
+      "points_mm": [
+        [
+          62,
+          56
+        ],
+        [
+          62,
+          47
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E5",
+      "from": "N4",
+      "to": "N6",
+      "label": "Yes",
+      "points_mm": [
+        [
+          82,
+          38
+        ],
+        [
+          111,
+          38
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E6",
+      "from": "N4",
+      "to": "N5",
+      "label": "No",
+      "points_mm": [
+        [
+          62,
+          29
+        ],
+        [
+          62,
+          21
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E7",
+      "from": "N6",
+      "to": "N7",
+      "label": "",
+      "points_mm": [
+        [
+          137,
+          31
+        ],
+        [
+          137,
+          21
+        ]
+      ],
+      "from_port": "south",
+      "to_port": "north",
+      "arrow": "end",
+      "route": "orthogonal"
+    },
+    {
+      "id": "E8",
+      "from": "N5",
+      "to": "N3",
+      "label": "",
+      "points_mm": [
+        [
+          27,
+          14
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          14,
+          63
+        ],
+        [
+          27,
+          63
+        ]
+      ],
+      "from_port": "west",
+      "to_port": "west",
+      "arrow": "end",
+      "route": "orthogonal"
+    }
+  ],
+  "source_ids": [
+    "M03",
+    "M07",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13"
+  ],
+  "limitations": [
+    "Nominal edge coordinates guide manual routing; exact endpoints must snap to each shape’s actual connection points.",
+    "This JSON is not a VSDX file and is not a guarantee of the rendered result."
+  ]
+}

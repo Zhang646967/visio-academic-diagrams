@@ -1,0 +1,258 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "id": "SYN-OPT",
+    "title": "Budget-limited iterative search (synthetic)",
+    "kind": "algorithm",
+    "input_scope": "full_text",
+    "source_status": "synthetic",
+    "question": "How is the best feasible solution retained under an update budget?",
+    "main_claim": "The note specifies control logic, not demonstrated performance.",
+    "understanding_status": "evidence_linked"
+  },
+  "coverage": [
+    {
+      "section": "Entire synthetic teaching note",
+      "status": "read"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "S1",
+      "source": "synthetic-paper.md",
+      "locator": "P1",
+      "paraphrase": "Problem, inputs and budget.",
+      "available": true
+    },
+    {
+      "id": "S2",
+      "source": "synthetic-paper.md",
+      "locator": "P2",
+      "paraphrase": "Feasibility and finite subroutine assumptions.",
+      "available": true
+    },
+    {
+      "id": "S3",
+      "source": "synthetic-paper.md",
+      "locator": "P3",
+      "paraphrase": "Exact algorithm including the return point and branches.",
+      "available": true
+    },
+    {
+      "id": "S4",
+      "source": "synthetic-paper.md",
+      "locator": "P4",
+      "paraphrase": "No benchmarks or global optimality claim.",
+      "available": true
+    },
+    {
+      "id": "S5",
+      "source": "synthetic-paper.md",
+      "locator": "P5",
+      "paraphrase": "Update and evaluation counts differ by one.",
+      "available": true
+    }
+  ],
+  "items": [
+    {
+      "id": "I0",
+      "type": "method_step",
+      "statement": "Start",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I1",
+      "type": "input",
+      "statement": "Problem data and algorithm parameters",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "I2",
+      "type": "method_step",
+      "statement": "Initialize feasible candidate; set t = 0",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I3",
+      "type": "method_step",
+      "statement": "Evaluate candidate; update best-so-far solution",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I4",
+      "type": "method_step",
+      "statement": "t ≥ T_max?",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I5",
+      "type": "method_step",
+      "statement": "Generate next feasible candidate; t ← t + 1",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I6",
+      "type": "output",
+      "statement": "Output best-so-far solution",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I7",
+      "type": "method_step",
+      "statement": "End",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "IQ",
+      "type": "question",
+      "statement": "How is the best feasible solution retained under an update budget?",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "IA",
+      "type": "assumption",
+      "statement": "Feasible candidates and finite subroutines; T_max is a nonnegative integer.",
+      "support": "explicit",
+      "evidence_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "IE",
+      "type": "limitation",
+      "statement": "No empirical benchmark is reported.",
+      "support": "explicit",
+      "evidence_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "IL",
+      "type": "limitation",
+      "statement": "No global-optimality guarantee is established.",
+      "support": "explicit",
+      "evidence_ids": [
+        "S4"
+      ]
+    },
+    {
+      "id": "IC",
+      "type": "claim",
+      "statement": "T_max updates imply T_max+1 evaluations, including at T_max=0.",
+      "support": "explicit",
+      "evidence_ids": [
+        "S5"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "from": "I0",
+      "to": "I1",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R2",
+      "from": "I1",
+      "to": "I2",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R3",
+      "from": "I2",
+      "to": "I3",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R4",
+      "from": "I3",
+      "to": "I4",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R5",
+      "from": "I4",
+      "to": "I6",
+      "kind": "controls",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R6",
+      "from": "I4",
+      "to": "I5",
+      "kind": "controls",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R7",
+      "from": "I6",
+      "to": "I7",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "R8",
+      "from": "I5",
+      "to": "I3",
+      "kind": "precedes",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "unknowns": []
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.1",
+  "title": "Assumption-to-result proof structure",
+  "diagram_type": "proof_map",
+  "environment": {
+    "platform": "desktop",
+    "version": "unconfirmed",
+    "ui_language": "zh-CN with English anchors",
+    "coordinate_origin": "bottom-left",
+    "pin": "center",
+    "drawing_scale": 1
+  },
+  "publication": {
+    "profile": "generic_draft",
+    "journal": "unknown",
+    "final_width_mm": 180,
+    "uniform_scale": true,
+    "raster_dpi": 1000,
+    "requirements_status": "unconfirmed; dpi is a design example, not a journal mandate"
+  },
+  "canvas": {
+    "width_mm": 180,
+    "height_mm": 90,
+    "margin_mm": 6
+  },
+  "style": {
+    "font_family": "Arial",
+    "font_pt": 8.5,
+    "line_pt": 0.75,
+    "fill": "white",
+    "stroke": "black"
+  },
+  "quality": {
+    "min_final_font_pt": 8,
+    "min_final_line_pt": 0.5,
+    "note": "本包提示阈值，不是期刊认证标准。"
+  },
+  "assumptions": [
+    "Synthetic teaching proof; premise-to-claim direction is declared.",
+    "Connector labels may require offset annotation due to short edge lengths."
+  ],
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Finite real\nsequence",
+      "type": "assumption",
+      "x_mm": 33,
+      "y_mm": 62,
+      "width_mm": 46,
+      "height_mm": 16
+    },
+    {
+      "id": "N2",
+      "label": "Each square ≥ 0",
+      "type": "claim",
+      "x_mm": 90,
+      "y_mm": 62,
+      "width_mm": 46,
+      "height_mm": 16
+    },
+    {
+      "id": "N3",
+      "label": "Finite sum ≥ 0",
+      "type": "claim",
+      "x_mm": 147,
+      "y_mm": 62,
+      "width_mm": 46,
+      "height_mm": 16
+    },
+    {
+      "id": "N4",
+      "label": "Original values may\nbe negative",
+      "type": "annotation",
+      "x_mm": 90,
+      "y_mm": 22,
+      "width_mm": 88,
+      "height_mm": 18
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "from": "N1",
+      "to": "N2",
+      "label": "premise for",
+      "arrow": "end",
+      "route": "straight",
+      "points_mm": [
+        [
+          56,
+          62
+        ],
+        [
+          67,
+          62
+        ]
+      ]
+    },
+    {
+      "id": "E2",
+      "from": "N2",
+      "to": "N3",
+      "label": "premise for",
+      "arrow": "end",
+      "route": "straight",
+      "points_mm": [
+        [
+          113,
+          62
+        ],
+        [
+          124,
+          62
+        ]
+      ]
+    }
+  ],
+  "source_ids": [
+    "M03",
+    "M07",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13"
+  ],
+  "limitations": [
+    "Nominal edge coordinates guide manual routing; exact endpoints must snap to each shape’s actual connection points.",
+    "This JSON is not a VSDX file and is not a guarantee of the rendered result."
+  ],
+  "figure_plan_id": "F-PROOF"
+}

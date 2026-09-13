@@ -1,0 +1,226 @@
+{
+  "version": "0.2.0",
+  "scope": "全功能族导航，不是穷举全部命令、模板、主控形状或API成员。",
+  "families": [
+    {
+      "id": "workspace",
+      "title": "工作环境与版本",
+      "source_ids": [
+        "M02",
+        "M32",
+        "M33"
+      ]
+    },
+    {
+      "id": "files",
+      "title": "文件、模板和复用",
+      "source_ids": [
+        "M02",
+        "M15"
+      ]
+    },
+    {
+      "id": "pages",
+      "title": "页面、打印与背景",
+      "source_ids": [
+        "M05",
+        "M12"
+      ]
+    },
+    {
+      "id": "shapes",
+      "title": "形状、模具和主控形状",
+      "source_ids": [
+        "M04",
+        "M26"
+      ]
+    },
+    {
+      "id": "geometry",
+      "title": "几何、尺寸和位置",
+      "source_ids": [
+        "M07",
+        "M26"
+      ]
+    },
+    {
+      "id": "text",
+      "title": "文本、字段与注释",
+      "source_ids": [
+        "M05",
+        "M11"
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": "连接、连接点和路由",
+      "source_ids": [
+        "M09",
+        "M10",
+        "M19"
+      ]
+    },
+    {
+      "id": "layout",
+      "title": "布局、捕捉和对齐",
+      "source_ids": [
+        "M05",
+        "M08"
+      ]
+    },
+    {
+      "id": "structure",
+      "title": "容器、分组、图层和列表",
+      "source_ids": [
+        "M14",
+        "M17"
+      ]
+    },
+    {
+      "id": "style",
+      "title": "主题、颜色与视觉属性",
+      "source_ids": [
+        "M05",
+        "M18"
+      ]
+    },
+    {
+      "id": "mindmap",
+      "title": "思维导图与头脑风暴",
+      "source_ids": [
+        "M30",
+        "M31"
+      ]
+    },
+    {
+      "id": "flow",
+      "title": "流程图、泳道和子流程",
+      "source_ids": [
+        "M03",
+        "M23"
+      ]
+    },
+    {
+      "id": "notation",
+      "title": "BPMN、UML、ER和DFD",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ]
+    },
+    {
+      "id": "business",
+      "title": "组织图与商业图",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ]
+    },
+    {
+      "id": "project",
+      "title": "时间线、PERT与计划图",
+      "source_ids": [
+        "M39",
+        "M40"
+      ]
+    },
+    {
+      "id": "network",
+      "title": "网络、机架与云架构",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ]
+    },
+    {
+      "id": "engineering",
+      "title": "空间、建筑和工程图",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ]
+    },
+    {
+      "id": "data",
+      "title": "形状数据与数据关联",
+      "source_ids": [
+        "M16",
+        "M23"
+      ]
+    },
+    {
+      "id": "datagraphics",
+      "title": "数据图形和透视关系图",
+      "source_ids": [
+        "M23",
+        "M38"
+      ]
+    },
+    {
+      "id": "validation",
+      "title": "规则、检查和可访问性",
+      "source_ids": [
+        "M25",
+        "M41"
+      ]
+    },
+    {
+      "id": "collaboration",
+      "title": "共享、协作和审阅",
+      "source_ids": [
+        "M01",
+        "M32"
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "超链接、跨页与演示",
+      "source_ids": [
+        "M05",
+        "M39"
+      ]
+    },
+    {
+      "id": "interop",
+      "title": "导入、导出与Office互操作",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ]
+    },
+    {
+      "id": "shapesheet",
+      "title": "ShapeSheet与智能形状",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "VBA、对象模型与嵌入API",
+      "source_ids": [
+        "M21",
+        "M22"
+      ]
+    },
+    {
+      "id": "lifecycle",
+      "title": "历史功能、退役与兼容性",
+      "source_ids": [
+        "M32",
+        "M33",
+        "M42",
+        "M43"
+      ]
+    }
+  ]
+}

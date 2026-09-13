@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "paper_id": "SYN-PROOF",
+  "figure_id": "F-PROOF",
+  "title": "Assumption-to-result proof structure",
+  "purpose": "Assumption-to-result proof structure",
+  "use": "reading",
+  "graph_type": "proof_map",
+  "detail_level": "overview",
+  "root_id": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Finite real\nsequence",
+      "role": "assumption",
+      "item_ids": [
+        "I1"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N2",
+      "label": "Each square ≥ 0",
+      "role": "claim",
+      "item_ids": [
+        "I2"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N3",
+      "label": "Finite sum ≥ 0",
+      "role": "claim",
+      "item_ids": [
+        "I3"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N4",
+      "label": "Original values may\nbe negative",
+      "role": "annotation",
+      "item_ids": [
+        "I4"
+      ],
+      "support": "explicit"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "from": "N1",
+      "to": "N2",
+      "kind": "dependency",
+      "label": "premise for",
+      "source_relation_ids": [
+        "R1"
+      ],
+      "support": "explicit",
+      "reverse_relation": true
+    },
+    {
+      "id": "E2",
+      "from": "N2",
+      "to": "N3",
+      "kind": "dependency",
+      "label": "premise for",
+      "source_relation_ids": [
+        "R2"
+      ],
+      "support": "explicit",
+      "reverse_relation": true
+    }
+  ],
+  "must_keep_item_ids": [
+    "I1",
+    "I4"
+  ],
+  "omissions": [],
+  "caption": "Synthetic teaching proof map. Arrows run from premise to dependent claim, reversing the model depends_on direction explicitly. No novelty is asserted.",
+  "uncertainty_disclosure": "",
+  "capability_ids": [
+    "SH01",
+    "CN01",
+    "TX05"
+  ]
+}

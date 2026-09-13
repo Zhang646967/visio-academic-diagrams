@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "paper_id": "SYN-OPT",
+  "figure_id": "F-ALGO",
+  "title": "Exact update-budget control flow",
+  "purpose": "Exact update-budget control flow",
+  "use": "publication",
+  "graph_type": "flowchart",
+  "detail_level": "implementation",
+  "root_id": null,
+  "nodes": [
+    {
+      "id": "N0",
+      "label": "Start",
+      "role": "start",
+      "item_ids": [
+        "I0"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N1",
+      "label": "Problem data and\nalgorithm parameters",
+      "role": "input_output",
+      "item_ids": [
+        "I1"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N2",
+      "label": "Initialize feasible candidate;\nset t = 0",
+      "role": "process",
+      "item_ids": [
+        "I2"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N3",
+      "label": "Evaluate candidate;\nupdate best-so-far solution",
+      "role": "process",
+      "item_ids": [
+        "I3"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N4",
+      "label": "t ≥ T_max?",
+      "role": "decision",
+      "item_ids": [
+        "I4"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N5",
+      "label": "Generate next feasible candidate;\nt ← t + 1",
+      "role": "process",
+      "item_ids": [
+        "I5"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N6",
+      "label": "Output best-so-far\nsolution",
+      "role": "input_output",
+      "item_ids": [
+        "I6"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N7",
+      "label": "End",
+      "role": "end",
+      "item_ids": [
+        "I7"
+      ],
+      "support": "explicit"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "from": "N0",
+      "to": "N1",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R1"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E2",
+      "from": "N1",
+      "to": "N2",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R2"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E3",
+      "from": "N2",
+      "to": "N3",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R3"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E4",
+      "from": "N3",
+      "to": "N4",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R4"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E5",
+      "from": "N4",
+      "to": "N6",
+      "kind": "control",
+      "label": "Yes",
+      "source_relation_ids": [
+        "R5"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E6",
+      "from": "N4",
+      "to": "N5",
+      "kind": "control",
+      "label": "No",
+      "source_relation_ids": [
+        "R6"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E7",
+      "from": "N6",
+      "to": "N7",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R7"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    },
+    {
+      "id": "E8",
+      "from": "N5",
+      "to": "N3",
+      "kind": "control",
+      "label": "",
+      "source_relation_ids": [
+        "R8"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    }
+  ],
+  "must_keep_item_ids": [
+    "I2",
+    "I3",
+    "I4",
+    "I5",
+    "I6"
+  ],
+  "omissions": [
+    {
+      "item_id": "IQ",
+      "reason": "Outside this control-flow panel; retained in the reading map, caption or teaching note."
+    },
+    {
+      "item_id": "IA",
+      "reason": "Outside this control-flow panel; retained in the reading map, caption or teaching note."
+    },
+    {
+      "item_id": "IE",
+      "reason": "Outside this control-flow panel; retained in the reading map, caption or teaching note."
+    },
+    {
+      "item_id": "IL",
+      "reason": "Outside this control-flow panel; retained in the reading map, caption or teaching note."
+    },
+    {
+      "item_id": "IC",
+      "reason": "Outside this control-flow panel; retained in the reading map, caption or teaching note."
+    }
+  ],
+  "caption": "Synthetic teaching control-flow example. Candidate generation is feasible and all subroutines terminate; T_max is a nonnegative integer. There are T_max+1 evaluations. No empirical improvement or global-optimality guarantee is claimed.",
+  "uncertainty_disclosure": "",
+  "capability_ids": [
+    "PG01",
+    "SH02",
+    "SH03",
+    "CN01",
+    "CN02",
+    "CN04",
+    "TX05",
+    "EX01"
+  ]
+}

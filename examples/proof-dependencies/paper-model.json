@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "id": "SYN-PROOF",
+    "title": "Sum of squares (synthetic)",
+    "kind": "theoretical",
+    "input_scope": "full_text",
+    "source_status": "synthetic",
+    "question": "Why is a finite sum of real squares nonnegative?",
+    "main_claim": "Each summand is nonnegative, hence so is their finite sum.",
+    "understanding_status": "evidence_linked"
+  },
+  "coverage": [
+    {
+      "section": "Entire synthetic teaching note",
+      "status": "read"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "S1",
+      "source": "synthetic-paper.md",
+      "locator": "P1",
+      "paraphrase": "Finite real sequence.",
+      "available": true
+    },
+    {
+      "id": "S2",
+      "source": "synthetic-paper.md",
+      "locator": "P2",
+      "paraphrase": "Each square is nonnegative.",
+      "available": true
+    },
+    {
+      "id": "S3",
+      "source": "synthetic-paper.md",
+      "locator": "P3",
+      "paraphrase": "The finite sum is nonnegative.",
+      "available": true
+    },
+    {
+      "id": "S4",
+      "source": "synthetic-paper.md",
+      "locator": "P4",
+      "paraphrase": "The original numbers need not be nonnegative.",
+      "available": true
+    }
+  ],
+  "items": [
+    {
+      "id": "I1",
+      "type": "assumption",
+      "statement": "Finite sequence of real numbers",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "I2",
+      "type": "claim",
+      "statement": "Each square is nonnegative",
+      "support": "explicit",
+      "evidence_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "I3",
+      "type": "claim",
+      "statement": "The finite sum is nonnegative",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    },
+    {
+      "id": "I4",
+      "type": "limitation",
+      "statement": "Original numbers need not be nonnegative",
+      "support": "explicit",
+      "evidence_ids": [
+        "S4"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "from": "I2",
+      "to": "I1",
+      "kind": "depends_on",
+      "support": "explicit",
+      "evidence_ids": [
+        "S2"
+      ]
+    },
+    {
+      "id": "R2",
+      "from": "I3",
+      "to": "I2",
+      "kind": "depends_on",
+      "support": "explicit",
+      "evidence_ids": [
+        "S3"
+      ]
+    }
+  ],
+  "unknowns": []
+}

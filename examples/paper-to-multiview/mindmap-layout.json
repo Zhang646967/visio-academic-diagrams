@@ -1,0 +1,397 @@
+{
+  "schema_version": "1.1",
+  "title": "Reading map of the teaching search method",
+  "diagram_type": "mindmap",
+  "environment": {
+    "platform": "desktop",
+    "version": "unconfirmed",
+    "ui_language": "zh-CN with English anchors",
+    "coordinate_origin": "bottom-left",
+    "pin": "center",
+    "drawing_scale": 1
+  },
+  "publication": {
+    "profile": "generic_draft",
+    "journal": "unknown",
+    "final_width_mm": 200,
+    "uniform_scale": true,
+    "raster_dpi": 1000,
+    "requirements_status": "unconfirmed; dpi is a design example, not a journal mandate"
+  },
+  "canvas": {
+    "width_mm": 200,
+    "height_mm": 190,
+    "margin_mm": 8
+  },
+  "style": {
+    "font_family": "Arial",
+    "font_pt": 8.5,
+    "line_pt": 0.75,
+    "fill": "white",
+    "stroke": "black"
+  },
+  "quality": {
+    "min_final_font_pt": 8,
+    "min_final_line_pt": 0.5,
+    "note": "本包提示阈值，不是期刊认证标准。"
+  },
+  "assumptions": [
+    "Synthetic reading map; thematic tree, not control flow.",
+    "Coordinates describe a manual fallback layout, not native auto-arrange results.",
+    "Final width is a reading example, not a journal single-column requirement."
+  ],
+  "nodes": [
+    {
+      "id": "M0",
+      "label": "Budgeted search\n(teaching example)",
+      "type": "topic",
+      "x_mm": 32,
+      "y_mm": 95,
+      "width_mm": 46,
+      "height_mm": 18
+    },
+    {
+      "id": "M1",
+      "label": "Problem",
+      "type": "topic",
+      "x_mm": 90,
+      "y_mm": 155,
+      "width_mm": 42,
+      "height_mm": 14
+    },
+    {
+      "id": "M2",
+      "label": "Method",
+      "type": "topic",
+      "x_mm": 90,
+      "y_mm": 95,
+      "width_mm": 42,
+      "height_mm": 14
+    },
+    {
+      "id": "M3",
+      "label": "Evidence",
+      "type": "topic",
+      "x_mm": 90,
+      "y_mm": 35,
+      "width_mm": 42,
+      "height_mm": 14
+    },
+    {
+      "id": "M4",
+      "label": "Inputs and\nalgorithm parameters",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 167,
+      "width_mm": 56,
+      "height_mm": 18
+    },
+    {
+      "id": "M5",
+      "label": "Feasible candidates;\nfinite subroutines",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 143,
+      "width_mm": 56,
+      "height_mm": 18
+    },
+    {
+      "id": "M6",
+      "label": "Initialize, evaluate,\ncheck budget, update",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 107,
+      "width_mm": 56,
+      "height_mm": 18
+    },
+    {
+      "id": "M7",
+      "label": "Best-so-far output;\nT_max+1 evaluations",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 83,
+      "width_mm": 56,
+      "height_mm": 18
+    },
+    {
+      "id": "M8",
+      "label": "No empirical tests\nreported",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 47,
+      "width_mm": 56,
+      "height_mm": 18
+    },
+    {
+      "id": "M9",
+      "label": "No global-optimality\nguarantee",
+      "type": "topic",
+      "x_mm": 162,
+      "y_mm": 23,
+      "width_mm": 56,
+      "height_mm": 18
+    }
+  ],
+  "edges": [
+    {
+      "id": "H1",
+      "from": "M0",
+      "to": "M1",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          55.0,
+          95
+        ],
+        [
+          60,
+          95
+        ],
+        [
+          60,
+          155
+        ],
+        [
+          69.0,
+          155
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H2",
+      "from": "M0",
+      "to": "M2",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          55.0,
+          95
+        ],
+        [
+          60,
+          95
+        ],
+        [
+          69.0,
+          95
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H3",
+      "from": "M0",
+      "to": "M3",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          55.0,
+          95
+        ],
+        [
+          60,
+          95
+        ],
+        [
+          60,
+          35
+        ],
+        [
+          69.0,
+          35
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H4",
+      "from": "M1",
+      "to": "M4",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          155
+        ],
+        [
+          125,
+          155
+        ],
+        [
+          125,
+          167
+        ],
+        [
+          134.0,
+          167
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H5",
+      "from": "M1",
+      "to": "M5",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          155
+        ],
+        [
+          125,
+          155
+        ],
+        [
+          125,
+          143
+        ],
+        [
+          134.0,
+          143
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H6",
+      "from": "M2",
+      "to": "M6",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          95
+        ],
+        [
+          125,
+          95
+        ],
+        [
+          125,
+          107
+        ],
+        [
+          134.0,
+          107
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H7",
+      "from": "M2",
+      "to": "M7",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          95
+        ],
+        [
+          125,
+          95
+        ],
+        [
+          125,
+          83
+        ],
+        [
+          134.0,
+          83
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H8",
+      "from": "M3",
+      "to": "M8",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          35
+        ],
+        [
+          125,
+          35
+        ],
+        [
+          125,
+          47
+        ],
+        [
+          134.0,
+          47
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    },
+    {
+      "id": "H9",
+      "from": "M3",
+      "to": "M9",
+      "label": "",
+      "arrow": "none",
+      "route": "orthogonal",
+      "points_mm": [
+        [
+          111.0,
+          35
+        ],
+        [
+          125,
+          35
+        ],
+        [
+          125,
+          23
+        ],
+        [
+          134.0,
+          23
+        ]
+      ],
+      "from_port": "east",
+      "to_port": "west"
+    }
+  ],
+  "source_ids": [
+    "M07",
+    "M09",
+    "M10",
+    "M30",
+    "M31"
+  ],
+  "limitations": [
+    "Nominal edge coordinates guide manual routing; exact endpoints must snap to each shape’s actual connection points.",
+    "This JSON is not a VSDX file and is not a guarantee of the rendered result."
+  ],
+  "figure_plan_id": "F-MAP"
+}

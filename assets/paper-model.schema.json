@@ -1,0 +1,283 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "paper": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "algorithm",
+            "empirical",
+            "theoretical",
+            "review",
+            "qualitative",
+            "system",
+            "mixed",
+            "other"
+          ]
+        },
+        "input_scope": {
+          "enum": [
+            "full_text",
+            "selected_sections",
+            "abstract_only",
+            "user_description"
+          ]
+        },
+        "source_status": {
+          "enum": [
+            "synthetic",
+            "user_provided",
+            "published"
+          ]
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        },
+        "main_claim": {
+          "type": "string",
+          "minLength": 1
+        },
+        "understanding_status": {
+          "enum": [
+            "draft",
+            "evidence_linked",
+            "author_reviewed"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "input_scope",
+        "source_status",
+        "question",
+        "main_claim",
+        "understanding_status"
+      ],
+      "additionalProperties": true
+    },
+    "coverage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "section": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "read",
+              "unread",
+              "unavailable"
+            ]
+          }
+        },
+        "required": [
+          "section",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "paraphrase": {
+            "type": "string",
+            "minLength": 1
+          },
+          "available": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "id",
+          "source",
+          "locator",
+          "paraphrase",
+          "available"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "enum": [
+              "question",
+              "context",
+              "gap",
+              "assumption",
+              "concept",
+              "method_step",
+              "equation",
+              "input",
+              "output",
+              "result",
+              "limitation",
+              "claim",
+              "parameter"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "support": {
+            "enum": [
+              "explicit",
+              "inferred",
+              "proposed",
+              "unknown"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "qualifier": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "statement",
+          "support",
+          "evidence_ids"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "from": {
+            "type": "string",
+            "minLength": 1
+          },
+          "to": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "contains",
+              "is_a",
+              "uses",
+              "produces",
+              "precedes",
+              "controls",
+              "supports",
+              "contradicts",
+              "associated_with",
+              "causes",
+              "depends_on",
+              "communicates_with"
+            ]
+          },
+          "support": {
+            "enum": [
+              "explicit",
+              "inferred",
+              "proposed",
+              "unknown"
+            ]
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "rationale": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "from",
+          "to",
+          "kind",
+          "support",
+          "evidence_ids"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "paper",
+    "coverage",
+    "evidence",
+    "items",
+    "relations",
+    "unknowns"
+  ],
+  "additionalProperties": false,
+  "$id": "urn:visio-academic-diagrams:paper-model:1.0",
+  "title": "Evidence-linked paper model; not proof of understanding"
+}

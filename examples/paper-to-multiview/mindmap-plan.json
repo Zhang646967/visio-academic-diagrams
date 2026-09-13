@@ -1,0 +1,210 @@
+{
+  "schema_version": "1.0",
+  "paper_id": "SYN-OPT",
+  "figure_id": "F-MAP",
+  "title": "Reading map of the teaching search method",
+  "purpose": "Reading map of the teaching search method",
+  "use": "reading",
+  "graph_type": "mindmap",
+  "detail_level": "overview",
+  "root_id": "M0",
+  "nodes": [
+    {
+      "id": "M0",
+      "label": "Budgeted search\n(teaching example)",
+      "role": "topic",
+      "item_ids": [
+        "IQ"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M1",
+      "label": "Problem",
+      "role": "organizer",
+      "item_ids": [],
+      "support": "proposed"
+    },
+    {
+      "id": "M2",
+      "label": "Method",
+      "role": "organizer",
+      "item_ids": [],
+      "support": "proposed"
+    },
+    {
+      "id": "M3",
+      "label": "Evidence",
+      "role": "organizer",
+      "item_ids": [],
+      "support": "proposed"
+    },
+    {
+      "id": "M4",
+      "label": "Inputs and\nalgorithm parameters",
+      "role": "topic",
+      "item_ids": [
+        "I1"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M5",
+      "label": "Feasible candidates;\nfinite subroutines",
+      "role": "topic",
+      "item_ids": [
+        "IA"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M6",
+      "label": "Initialize, evaluate,\ncheck budget, update",
+      "role": "topic",
+      "item_ids": [
+        "I0",
+        "I2",
+        "I3",
+        "I4",
+        "I5",
+        "I7"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M7",
+      "label": "Best-so-far output;\nT_max+1 evaluations",
+      "role": "topic",
+      "item_ids": [
+        "I6",
+        "IC"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M8",
+      "label": "No empirical tests\nreported",
+      "role": "topic",
+      "item_ids": [
+        "IE"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "M9",
+      "label": "No global-optimality\nguarantee",
+      "role": "topic",
+      "item_ids": [
+        "IL"
+      ],
+      "support": "explicit"
+    }
+  ],
+  "edges": [
+    {
+      "id": "H1",
+      "from": "M0",
+      "to": "M1",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H2",
+      "from": "M0",
+      "to": "M2",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H3",
+      "from": "M0",
+      "to": "M3",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H4",
+      "from": "M1",
+      "to": "M4",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H5",
+      "from": "M1",
+      "to": "M5",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H6",
+      "from": "M2",
+      "to": "M6",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H7",
+      "from": "M2",
+      "to": "M7",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H8",
+      "from": "M3",
+      "to": "M8",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    },
+    {
+      "id": "H9",
+      "from": "M3",
+      "to": "M9",
+      "kind": "hierarchy",
+      "label": "",
+      "source_relation_ids": [],
+      "support": "proposed",
+      "reverse_relation": false
+    }
+  ],
+  "must_keep_item_ids": [
+    "IQ",
+    "IA",
+    "IE",
+    "IL"
+  ],
+  "omissions": [],
+  "caption": "Synthetic reading map. Tree links organize themes only; they do not encode algorithm control or causation. No benchmark or global-optimality claim is present.",
+  "uncertainty_disclosure": "The three branch headings and all tree links are editorial reading groupings, not author-specified execution order or causal claims.",
+  "capability_ids": [
+    "MM01",
+    "MM02",
+    "MM04",
+    "MM05"
+  ]
+}

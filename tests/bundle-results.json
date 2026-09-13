@@ -1,0 +1,46 @@
+{
+  "version": "0.2.0",
+  "checked_on": "2026-09-12",
+  "bundles": [
+    {
+      "example": "paper-to-multiview",
+      "plan": "mindmap-plan",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "scope": "ID, label, role, direction and nominal geometry; not actual Visio text, glue or scientific entailment."
+      }
+    },
+    {
+      "example": "paper-to-multiview",
+      "plan": "algorithm-plan",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "scope": "ID, label, role, direction and nominal geometry; not actual Visio text, glue or scientific entailment."
+      }
+    },
+    {
+      "example": "association-not-causation",
+      "plan": "figure-plan",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "scope": "ID, label, role, direction and nominal geometry; not actual Visio text, glue or scientific entailment."
+      }
+    },
+    {
+      "example": "proof-dependencies",
+      "plan": "figure-plan",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "scope": "ID, label, role, direction and nominal geometry; not actual Visio text, glue or scientific entailment."
+      }
+    }
+  ]
+}

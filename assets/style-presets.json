@@ -1,0 +1,36 @@
+{
+  "notice": "以下均为本包设计预设，不是任何期刊的统一规范；实际期刊要求覆盖它们。",
+  "presets": {
+    "generic_single_column": {
+      "final_width_mm": 90,
+      "font_family": "Arial",
+      "font_pt": 9,
+      "line_pt": 0.75,
+      "margin_mm": 5,
+      "fill": "white",
+      "stroke": "black",
+      "effects": "none"
+    },
+    "generic_wide": {
+      "final_width_mm": 180,
+      "font_family": "Arial",
+      "font_pt": 9,
+      "line_pt": 0.75,
+      "margin_mm": 6,
+      "fill": "white",
+      "stroke": "black",
+      "effects": "none"
+    },
+    "worked_example": {
+      "final_width_mm": 180,
+      "font_family": "Arial",
+      "font_pt": 8.5,
+      "line_pt": 0.75,
+      "margin_mm": 6,
+      "fill": "white",
+      "stroke": "black",
+      "effects": "none"
+    }
+  },
+  "not_a_license": "字体仅是名称建议，需本机可用和允许嵌入；本包不附字体。"
+}

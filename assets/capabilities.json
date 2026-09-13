@@ -1,0 +1,5230 @@
+{
+  "version": "0.2.0",
+  "reviewed_on": "2026-09-12",
+  "capabilities": [
+    {
+      "id": "PG01",
+      "title": "新建基础流程图",
+      "status": "document-backed",
+      "module": "references/operations-page.md",
+      "source_ids": [
+        "M02",
+        "M03"
+      ],
+      "platform": "桌面",
+      "family": "pages",
+      "keywords": [
+        "新建基础流程图"
+      ],
+      "official_query": "Visio 新建基础流程图",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "PG01"
+    },
+    {
+      "id": "PG02",
+      "title": "自定义绘图页",
+      "status": "document-backed",
+      "module": "references/operations-page.md",
+      "source_ids": [
+        "M12"
+      ],
+      "platform": "桌面",
+      "family": "pages",
+      "keywords": [
+        "自定义绘图页"
+      ],
+      "official_query": "Visio 自定义绘图页",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "PG02"
+    },
+    {
+      "id": "PG03",
+      "title": "拟合绘图边界",
+      "status": "document-backed",
+      "module": "references/operations-page.md",
+      "source_ids": [
+        "M12"
+      ],
+      "platform": "桌面",
+      "family": "pages",
+      "keywords": [
+        "拟合绘图边界"
+      ],
+      "official_query": "Visio 拟合绘图边界",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "PG03"
+    },
+    {
+      "id": "PG04",
+      "title": "打印纸设置",
+      "status": "document-backed",
+      "module": "references/operations-page.md",
+      "source_ids": [
+        "M12"
+      ],
+      "platform": "桌面",
+      "family": "pages",
+      "keywords": [
+        "打印纸设置"
+      ],
+      "official_query": "Visio 打印纸设置",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "PG04"
+    },
+    {
+      "id": "PG05",
+      "title": "保存可编辑源文件",
+      "status": "document-backed",
+      "module": "references/operations-page.md",
+      "source_ids": [
+        "M02"
+      ],
+      "platform": "桌面",
+      "family": "pages",
+      "keywords": [
+        "保存可编辑源文件"
+      ],
+      "official_query": "Visio 保存可编辑源文件",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "PG05"
+    },
+    {
+      "id": "SH01",
+      "title": "拖入模板形状",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M02",
+        "M03"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "拖入模板形状"
+      ],
+      "official_query": "Visio 拖入模板形状",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH01"
+    },
+    {
+      "id": "SH02",
+      "title": "精确宽高",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M07"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "精确宽高"
+      ],
+      "official_query": "Visio 精确宽高",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH02"
+    },
+    {
+      "id": "SH03",
+      "title": "精确中心位置",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M07"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "精确中心位置"
+      ],
+      "official_query": "Visio 精确中心位置",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH03"
+    },
+    {
+      "id": "SH04",
+      "title": "旋转",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M07"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "旋转"
+      ],
+      "official_query": "Visio 旋转",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH04"
+    },
+    {
+      "id": "SH05",
+      "title": "填充和轮廓",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M18"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "填充和轮廓"
+      ],
+      "official_query": "Visio 填充和轮廓",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH05"
+    },
+    {
+      "id": "SH06",
+      "title": "保存个人模板",
+      "status": "document-backed",
+      "module": "references/operations-shapes.md",
+      "source_ids": [
+        "M15"
+      ],
+      "platform": "桌面",
+      "family": "shapes",
+      "keywords": [
+        "保存个人模板"
+      ],
+      "official_query": "Visio 保存个人模板",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "SH06"
+    },
+    {
+      "id": "LY01",
+      "title": "对齐",
+      "status": "document-backed",
+      "module": "references/operations-layout.md",
+      "source_ids": [
+        "M08"
+      ],
+      "platform": "桌面",
+      "family": "layout",
+      "keywords": [
+        "对齐"
+      ],
+      "official_query": "Visio 对齐",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "LY01"
+    },
+    {
+      "id": "LY02",
+      "title": "均匀分布",
+      "status": "document-backed",
+      "module": "references/operations-layout.md",
+      "source_ids": [
+        "M08"
+      ],
+      "platform": "桌面",
+      "family": "layout",
+      "keywords": [
+        "均匀分布"
+      ],
+      "official_query": "Visio 均匀分布",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "LY02"
+    },
+    {
+      "id": "LY03",
+      "title": "自动对齐及间距",
+      "status": "document-backed",
+      "module": "references/operations-layout.md",
+      "source_ids": [
+        "M08"
+      ],
+      "platform": "桌面",
+      "family": "layout",
+      "keywords": [
+        "自动对齐及间距"
+      ],
+      "official_query": "Visio 自动对齐及间距",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "LY03"
+    },
+    {
+      "id": "LY04",
+      "title": "网页版对齐与分布",
+      "status": "document-backed",
+      "module": "references/operations-layout.md",
+      "source_ids": [
+        "M08"
+      ],
+      "platform": "网页",
+      "family": "layout",
+      "keywords": [
+        "网页版对齐与分布"
+      ],
+      "official_query": "Visio 网页版对齐与分布",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "LY04"
+    },
+    {
+      "id": "TX01",
+      "title": "节点文字",
+      "status": "document-backed",
+      "module": "references/operations-text.md",
+      "source_ids": [
+        "M11"
+      ],
+      "platform": "桌面",
+      "family": "text",
+      "keywords": [
+        "节点文字"
+      ],
+      "official_query": "Visio 节点文字",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "TX01"
+    },
+    {
+      "id": "TX02",
+      "title": "字体与对齐",
+      "status": "document-backed",
+      "module": "references/operations-text.md",
+      "source_ids": [
+        "M11"
+      ],
+      "platform": "桌面",
+      "family": "text",
+      "keywords": [
+        "字体与对齐"
+      ],
+      "official_query": "Visio 字体与对齐",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "TX02"
+    },
+    {
+      "id": "TX03",
+      "title": "独立注释",
+      "status": "document-backed",
+      "module": "references/operations-text.md",
+      "source_ids": [
+        "M11"
+      ],
+      "platform": "桌面",
+      "family": "text",
+      "keywords": [
+        "独立注释"
+      ],
+      "official_query": "Visio 独立注释",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "TX03"
+    },
+    {
+      "id": "TX04",
+      "title": "调整文本块位置",
+      "status": "document-backed",
+      "module": "references/operations-text.md",
+      "source_ids": [
+        "M11"
+      ],
+      "platform": "桌面",
+      "family": "text",
+      "keywords": [
+        "调整文本块位置"
+      ],
+      "official_query": "Visio 调整文本块位置",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "TX04"
+    },
+    {
+      "id": "TX05",
+      "title": "连接线标签",
+      "status": "document-backed",
+      "module": "references/operations-text.md",
+      "source_ids": [
+        "M11"
+      ],
+      "platform": "桌面",
+      "family": "text",
+      "keywords": [
+        "连接线标签"
+      ],
+      "official_query": "Visio 连接线标签",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "TX05"
+    },
+    {
+      "id": "CN01",
+      "title": "添加连接线",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M09"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "添加连接线"
+      ],
+      "official_query": "Visio 添加连接线",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN01"
+    },
+    {
+      "id": "CN02",
+      "title": "固定连接点或动态连接",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M10"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "固定连接点或动态连接"
+      ],
+      "official_query": "Visio 固定连接点或动态连接",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN02"
+    },
+    {
+      "id": "CN03",
+      "title": "线型与箭头",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M10"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "线型与箭头"
+      ],
+      "official_query": "Visio 线型与箭头",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN03"
+    },
+    {
+      "id": "CN04",
+      "title": "直角与反馈走线",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M10"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "直角与反馈走线"
+      ],
+      "official_query": "Visio 直角与反馈走线",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN04"
+    },
+    {
+      "id": "CN05",
+      "title": "粘附开关",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M19"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "粘附开关"
+      ],
+      "official_query": "Visio 粘附开关",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN05"
+    },
+    {
+      "id": "CN06",
+      "title": "增加连接点",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M10"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "增加连接点"
+      ],
+      "official_query": "Visio 增加连接点",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN06"
+    },
+    {
+      "id": "CN07",
+      "title": "AutoConnect",
+      "status": "document-backed",
+      "module": "references/operations-connectors.md",
+      "source_ids": [
+        "M09"
+      ],
+      "platform": "桌面",
+      "family": "connectors",
+      "keywords": [
+        "AutoConnect"
+      ],
+      "official_query": "Visio AutoConnect",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "CN07"
+    },
+    {
+      "id": "ST01",
+      "title": "建立容器",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M17"
+      ],
+      "platform": "桌面",
+      "family": "structure",
+      "keywords": [
+        "建立容器"
+      ],
+      "official_query": "Visio 建立容器",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST01"
+    },
+    {
+      "id": "ST02",
+      "title": "解散容器",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M17"
+      ],
+      "platform": "桌面",
+      "family": "structure",
+      "keywords": [
+        "解散容器"
+      ],
+      "official_query": "Visio 解散容器",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST02"
+    },
+    {
+      "id": "ST03",
+      "title": "分配图层",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M14"
+      ],
+      "platform": "桌面",
+      "family": "structure",
+      "keywords": [
+        "分配图层"
+      ],
+      "official_query": "Visio 分配图层",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST03"
+    },
+    {
+      "id": "ST04",
+      "title": "图层属性",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M14"
+      ],
+      "platform": "桌面",
+      "family": "structure",
+      "keywords": [
+        "图层属性"
+      ],
+      "official_query": "Visio 图层属性",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST04"
+    },
+    {
+      "id": "ST05",
+      "title": "查看形状数据",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M02"
+      ],
+      "platform": "桌面",
+      "family": "structure",
+      "keywords": [
+        "查看形状数据"
+      ],
+      "official_query": "Visio 查看形状数据",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST05"
+    },
+    {
+      "id": "ST06",
+      "title": "导入并刷新外部数据",
+      "status": "document-backed",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M16"
+      ],
+      "platform": "支持的数据功能版别",
+      "family": "structure",
+      "keywords": [
+        "导入并刷新外部数据"
+      ],
+      "official_query": "Visio 导入并刷新外部数据",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST06"
+    },
+    {
+      "id": "ST07",
+      "title": "Data Visualizer过程数据转图",
+      "status": "index-only",
+      "module": "references/operations-structure.md",
+      "source_ids": [
+        "M23"
+      ],
+      "platform": "按订阅核验",
+      "family": "structure",
+      "keywords": [
+        "Data Visualizer过程数据转图"
+      ],
+      "official_query": "Visio Data Visualizer过程数据转图",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "ST07"
+    },
+    {
+      "id": "EX01",
+      "title": "导出PDF",
+      "status": "document-backed",
+      "module": "references/operations-export.md",
+      "source_ids": [
+        "M13"
+      ],
+      "platform": "桌面",
+      "family": "interop",
+      "keywords": [
+        "导出PDF"
+      ],
+      "official_query": "Visio 导出PDF",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "EX01"
+    },
+    {
+      "id": "EX02",
+      "title": "导出图形格式",
+      "status": "document-backed",
+      "module": "references/operations-export.md",
+      "source_ids": [
+        "M13"
+      ],
+      "platform": "桌面",
+      "family": "interop",
+      "keywords": [
+        "导出图形格式"
+      ],
+      "official_query": "Visio 导出图形格式",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "EX02"
+    },
+    {
+      "id": "EX03",
+      "title": "网页导出",
+      "status": "document-backed",
+      "module": "references/operations-export.md",
+      "source_ids": [
+        "M13"
+      ],
+      "platform": "网页",
+      "family": "interop",
+      "keywords": [
+        "网页导出"
+      ],
+      "official_query": "Visio 网页导出",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "EX03"
+    },
+    {
+      "id": "WB01",
+      "title": "网页画布",
+      "status": "document-backed",
+      "module": "references/operations-web.md",
+      "source_ids": [
+        "M12"
+      ],
+      "platform": "网页",
+      "family": "workspace",
+      "keywords": [
+        "网页画布"
+      ],
+      "official_query": "Visio 网页画布",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "WB01"
+    },
+    {
+      "id": "WB02",
+      "title": "网页形状格式",
+      "status": "document-backed",
+      "module": "references/operations-web.md",
+      "source_ids": [
+        "M18"
+      ],
+      "platform": "网页",
+      "family": "workspace",
+      "keywords": [
+        "网页形状格式"
+      ],
+      "official_query": "Visio 网页形状格式",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "WB02"
+    },
+    {
+      "id": "WB03",
+      "title": "网页容器",
+      "status": "document-backed",
+      "module": "references/operations-web.md",
+      "source_ids": [
+        "M17"
+      ],
+      "platform": "网页",
+      "family": "workspace",
+      "keywords": [
+        "网页容器"
+      ],
+      "official_query": "Visio 网页容器",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "WB03"
+    },
+    {
+      "id": "WB04",
+      "title": "网页BPMN门槛",
+      "status": "document-backed",
+      "module": "references/operations-web.md",
+      "source_ids": [
+        "M29"
+      ],
+      "platform": "网页",
+      "family": "workspace",
+      "keywords": [
+        "网页BPMN门槛"
+      ],
+      "official_query": "Visio 网页BPMN门槛",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "WB04"
+    },
+    {
+      "id": "AD01",
+      "title": "组合、取消组合、选择层级与主控形状",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M04"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "组合、取消组合、选择层级与主控形状"
+      ],
+      "official_query": "Visio 组合、取消组合、选择层级与主控形状",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD01"
+    },
+    {
+      "id": "AD02",
+      "title": "自定义形状与复杂几何",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M26"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "自定义形状与复杂几何"
+      ],
+      "official_query": "Visio 自定义形状与复杂几何",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD02"
+    },
+    {
+      "id": "AD03",
+      "title": "ShapeSheet单元格和公式",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M20"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "ShapeSheet单元格和公式"
+      ],
+      "official_query": "Visio ShapeSheet单元格和公式",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD03"
+    },
+    {
+      "id": "AD04",
+      "title": "VBA与桌面对象模型",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M21"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "VBA与桌面对象模型"
+      ],
+      "official_query": "Visio VBA与桌面对象模型",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD04"
+    },
+    {
+      "id": "AD05",
+      "title": "嵌入图表JavaScript API",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M22"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "嵌入图表JavaScript API"
+      ],
+      "official_query": "Visio 嵌入图表JavaScript API",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD05"
+    },
+    {
+      "id": "AD06",
+      "title": "数据图形和数据驱动展示",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "数据图形和数据驱动展示"
+      ],
+      "official_query": "Visio 数据图形和数据驱动展示",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD06"
+    },
+    {
+      "id": "AD07",
+      "title": "透视关系图及商业图",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "透视关系图及商业图"
+      ],
+      "official_query": "Visio 透视关系图及商业图",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD07"
+    },
+    {
+      "id": "AD08",
+      "title": "组织结构与泳道流程",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "组织结构与泳道流程"
+      ],
+      "official_query": "Visio 组织结构与泳道流程",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD08"
+    },
+    {
+      "id": "AD09",
+      "title": "网络拓扑、机架和网络资源",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "网络拓扑、机架和网络资源"
+      ],
+      "official_query": "Visio 网络拓扑、机架和网络资源",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD09"
+    },
+    {
+      "id": "AD10",
+      "title": "平面图、建筑及工程专业图",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "平面图、建筑及工程专业图"
+      ],
+      "official_query": "Visio 平面图、建筑及工程专业图",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD10"
+    },
+    {
+      "id": "AD11",
+      "title": "AutoCAD导入、裁切、转换与图层",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "AutoCAD导入、裁切、转换与图层"
+      ],
+      "official_query": "Visio AutoCAD导入、裁切、转换与图层",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD11"
+    },
+    {
+      "id": "AD12",
+      "title": "价值流、IDEF0、SDL、EPC与故障树",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M06"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "价值流、IDEF0、SDL、EPC与故障树"
+      ],
+      "official_query": "Visio 价值流、IDEF0、SDL、EPC与故障树",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD12"
+    },
+    {
+      "id": "AD13",
+      "title": "共享、协作与评论",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M01"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "共享、协作与评论"
+      ],
+      "official_query": "Visio 共享、协作与评论",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD13"
+    },
+    {
+      "id": "AD14",
+      "title": "主题、背景、边框及多页面",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M05"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "主题、背景、边框及多页面"
+      ],
+      "official_query": "Visio 主题、背景、边框及多页面",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD14"
+    },
+    {
+      "id": "AD15",
+      "title": "跨页引用与超链接",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M09"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "跨页引用与超链接"
+      ],
+      "official_query": "Visio 跨页引用与超链接",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD15"
+    },
+    {
+      "id": "AD16",
+      "title": "捕捉、网格、标尺、参考线",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M05"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "捕捉、网格、标尺、参考线"
+      ],
+      "official_query": "Visio 捕捉、网格、标尺、参考线",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD16"
+    },
+    {
+      "id": "AD17",
+      "title": "结构化图规则校验",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M25"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "结构化图规则校验"
+      ],
+      "official_query": "Visio 结构化图规则校验",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD17"
+    },
+    {
+      "id": "AD18",
+      "title": "UML专用图种",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M28"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "UML专用图种"
+      ],
+      "official_query": "Visio UML专用图种",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD18"
+    },
+    {
+      "id": "AD19",
+      "title": "ER建模与数据库反向工程",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M24"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "ER建模与数据库反向工程"
+      ],
+      "official_query": "Visio ER建模与数据库反向工程",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD19"
+    },
+    {
+      "id": "AD20",
+      "title": "DFD与数据流程",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M27"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "DFD与数据流程"
+      ],
+      "official_query": "Visio DFD与数据流程",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD20"
+    },
+    {
+      "id": "AD21",
+      "title": "BPMN专用记法及验证",
+      "status": "index-only",
+      "module": "references/advanced-index.md",
+      "source_ids": [
+        "M29"
+      ],
+      "platform": "使用前核验",
+      "family": "workspace",
+      "keywords": [
+        "BPMN专用记法及验证"
+      ],
+      "official_query": "Visio BPMN专用记法及验证",
+      "research_use": "按本条模块选择对应科研绘图操作。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "核对版别、平台、构建号；不能由页首Applies To推断逐项功能。",
+      "operation_anchor": "AD21"
+    },
+    {
+      "id": "UI01",
+      "title": "桌面/网页版与许可识别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "workspace",
+      "keywords": [
+        "桌面/网页版与许可识别",
+        "workspace",
+        "UI"
+      ],
+      "official_query": "Visio 桌面/网页版与许可识别",
+      "research_use": "用于工作环境与版本相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "UI01"
+    },
+    {
+      "id": "UI02",
+      "title": "功能区与任务窗格定位",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "workspace",
+      "keywords": [
+        "功能区与任务窗格定位",
+        "workspace",
+        "UI"
+      ],
+      "official_query": "Visio 功能区与任务窗格定位",
+      "research_use": "用于工作环境与版本相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "UI02"
+    },
+    {
+      "id": "UI03",
+      "title": "键盘、触控与辅助输入",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "workspace",
+      "keywords": [
+        "键盘、触控与辅助输入",
+        "workspace",
+        "UI"
+      ],
+      "official_query": "Visio 键盘、触控与辅助输入",
+      "research_use": "用于工作环境与版本相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "UI03"
+    },
+    {
+      "id": "UI04",
+      "title": "界面语言和构建号记录",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "workspace",
+      "keywords": [
+        "界面语言和构建号记录",
+        "workspace",
+        "UI"
+      ],
+      "official_query": "Visio 界面语言和构建号记录",
+      "research_use": "用于工作环境与版本相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "UI04"
+    },
+    {
+      "id": "FL01",
+      "title": "新建空白图与模板检索",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M15",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "files",
+      "keywords": [
+        "新建空白图与模板检索",
+        "files",
+        "FL"
+      ],
+      "official_query": "Visio 新建空白图与模板检索",
+      "research_use": "用于文件、模板和复用相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FL01"
+    },
+    {
+      "id": "FL02",
+      "title": "VSDX/VSDM及宏风险",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M15",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "files",
+      "keywords": [
+        "VSDX/VSDM及宏风险",
+        "files",
+        "FL"
+      ],
+      "official_query": "Visio VSDX/VSDM及宏风险",
+      "research_use": "用于文件、模板和复用相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FL02"
+    },
+    {
+      "id": "FL03",
+      "title": "VSTX/VSSX模板与模具用途",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M15",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "files",
+      "keywords": [
+        "VSTX/VSSX模板与模具用途",
+        "files",
+        "FL"
+      ],
+      "official_query": "Visio VSTX/VSSX模板与模具用途",
+      "research_use": "用于文件、模板和复用相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FL03"
+    },
+    {
+      "id": "FL04",
+      "title": "多窗口与多文件复制",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M15",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "files",
+      "keywords": [
+        "多窗口与多文件复制",
+        "files",
+        "FL"
+      ],
+      "official_query": "Visio 多窗口与多文件复制",
+      "research_use": "用于文件、模板和复用相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FL04"
+    },
+    {
+      "id": "FL05",
+      "title": "模板封装和样式继承边界",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M02",
+        "M15",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "files",
+      "keywords": [
+        "模板封装和样式继承边界",
+        "files",
+        "FL"
+      ],
+      "official_query": "Visio 模板封装和样式继承边界",
+      "research_use": "用于文件、模板和复用相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FL05"
+    },
+    {
+      "id": "PA01",
+      "title": "多页新增、重命名和排序",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "多页新增、重命名和排序",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 多页新增、重命名和排序",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA01"
+    },
+    {
+      "id": "PA02",
+      "title": "前景页和背景页",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "前景页和背景页",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 前景页和背景页",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA02"
+    },
+    {
+      "id": "PA03",
+      "title": "页边框、标题和页码",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "页边框、标题和页码",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 页边框、标题和页码",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA03"
+    },
+    {
+      "id": "PA04",
+      "title": "绘图比例与测量单位",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "绘图比例与测量单位",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 绘图比例与测量单位",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA04"
+    },
+    {
+      "id": "PA05",
+      "title": "打印分页、拼接和缩放",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "打印分页、拼接和缩放",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 打印分页、拼接和缩放",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA05"
+    },
+    {
+      "id": "PA06",
+      "title": "屏幕缩放与最终物理尺寸区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M12"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "pages",
+      "keywords": [
+        "屏幕缩放与最终物理尺寸区别",
+        "pages",
+        "PA"
+      ],
+      "official_query": "Visio 屏幕缩放与最终物理尺寸区别",
+      "research_use": "用于页面、打印与背景相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PA06"
+    },
+    {
+      "id": "SP01",
+      "title": "查找、打开与收藏模具",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "查找、打开与收藏模具",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 查找、打开与收藏模具",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP01"
+    },
+    {
+      "id": "SP02",
+      "title": "创建和编辑自定义模具",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "创建和编辑自定义模具",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 创建和编辑自定义模具",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP02"
+    },
+    {
+      "id": "SP03",
+      "title": "主控形状实例与更新",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "主控形状实例与更新",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 主控形状实例与更新",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP03"
+    },
+    {
+      "id": "SP04",
+      "title": "替换形状与保留关系",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "替换形状与保留关系",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 替换形状与保留关系",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP04"
+    },
+    {
+      "id": "SP05",
+      "title": "选择子形状与组合层级",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "选择子形状与组合层级",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 选择子形状与组合层级",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP05"
+    },
+    {
+      "id": "SP06",
+      "title": "控点、翻转与保护",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "控点、翻转与保护",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 控点、翻转与保护",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP06"
+    },
+    {
+      "id": "SP07",
+      "title": "布尔几何：联合、组合、拆分、相交、相减",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M04",
+        "M26",
+        "M15"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapes",
+      "keywords": [
+        "布尔几何：联合、组合、拆分、相交、相减",
+        "shapes",
+        "SP"
+      ],
+      "official_query": "Visio 布尔几何：联合、组合、拆分、相交、相减",
+      "research_use": "用于形状、模具和主控形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SP07"
+    },
+    {
+      "id": "GE01",
+      "title": "针脚和局部针脚区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M07",
+        "M26",
+        "M34"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "geometry",
+      "keywords": [
+        "针脚和局部针脚区别",
+        "geometry",
+        "GE"
+      ],
+      "official_query": "Visio 针脚和局部针脚区别",
+      "research_use": "用于几何、尺寸和位置相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GE01"
+    },
+    {
+      "id": "GE02",
+      "title": "锁定纵横比",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M07",
+        "M26",
+        "M34"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "geometry",
+      "keywords": [
+        "锁定纵横比",
+        "geometry",
+        "GE"
+      ],
+      "official_query": "Visio 锁定纵横比",
+      "research_use": "用于几何、尺寸和位置相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GE02"
+    },
+    {
+      "id": "GE03",
+      "title": "一维线形状与二维形状",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M07",
+        "M26",
+        "M34"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "geometry",
+      "keywords": [
+        "一维线形状与二维形状",
+        "geometry",
+        "GE"
+      ],
+      "official_query": "Visio 一维线形状与二维形状",
+      "research_use": "用于几何、尺寸和位置相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GE03"
+    },
+    {
+      "id": "GE04",
+      "title": "尺寸标注与比例尺",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M07",
+        "M26",
+        "M34"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "geometry",
+      "keywords": [
+        "尺寸标注与比例尺",
+        "geometry",
+        "GE"
+      ],
+      "official_query": "Visio 尺寸标注与比例尺",
+      "research_use": "用于几何、尺寸和位置相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GE04"
+    },
+    {
+      "id": "GE05",
+      "title": "相对坐标与单位公式",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M07",
+        "M26",
+        "M34"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "geometry",
+      "keywords": [
+        "相对坐标与单位公式",
+        "geometry",
+        "GE"
+      ],
+      "official_query": "Visio 相对坐标与单位公式",
+      "research_use": "用于几何、尺寸和位置相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GE05"
+    },
+    {
+      "id": "TT01",
+      "title": "自动换行、段落与文字边距",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M11",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "text",
+      "keywords": [
+        "自动换行、段落与文字边距",
+        "text",
+        "TT"
+      ],
+      "official_query": "Visio 自动换行、段落与文字边距",
+      "research_use": "用于文本、字段与注释相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "TT01"
+    },
+    {
+      "id": "TT02",
+      "title": "字段显示与数据文字",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M11",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "text",
+      "keywords": [
+        "字段显示与数据文字",
+        "text",
+        "TT"
+      ],
+      "official_query": "Visio 字段显示与数据文字",
+      "research_use": "用于文本、字段与注释相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "TT02"
+    },
+    {
+      "id": "TT03",
+      "title": "编号、项目符号与列表",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M11",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "text",
+      "keywords": [
+        "编号、项目符号与列表",
+        "text",
+        "TT"
+      ],
+      "official_query": "Visio 编号、项目符号与列表",
+      "research_use": "用于文本、字段与注释相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "TT03"
+    },
+    {
+      "id": "TT04",
+      "title": "图片、符号和公式内容",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M11",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "text",
+      "keywords": [
+        "图片、符号和公式内容",
+        "text",
+        "TT"
+      ],
+      "official_query": "Visio 图片、符号和公式内容",
+      "research_use": "用于文本、字段与注释相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "TT04"
+    },
+    {
+      "id": "TT05",
+      "title": "文本块独立旋转与标注避让",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M11",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "text",
+      "keywords": [
+        "文本块独立旋转与标注避让",
+        "text",
+        "TT"
+      ],
+      "official_query": "Visio 文本块独立旋转与标注避让",
+      "research_use": "用于文本、字段与注释相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "TT05"
+    },
+    {
+      "id": "RT01",
+      "title": "连接点方向与动态粘附",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "连接点方向与动态粘附",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 连接点方向与动态粘附",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT01"
+    },
+    {
+      "id": "RT02",
+      "title": "线跳和交叉歧义",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "线跳和交叉歧义",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 线跳和交叉歧义",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT02"
+    },
+    {
+      "id": "RT03",
+      "title": "连接线中点和绕障重排",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "连接线中点和绕障重排",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 连接线中点和绕障重排",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT03"
+    },
+    {
+      "id": "RT04",
+      "title": "固定路由与自由路线",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "固定路由与自由路线",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 固定路由与自由路线",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT04"
+    },
+    {
+      "id": "RT05",
+      "title": "连接线文本位置与方向",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "连接线文本位置与方向",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 连接线文本位置与方向",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT05"
+    },
+    {
+      "id": "RT06",
+      "title": "分支合并点与连接符号",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M10",
+        "M19"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "connectors",
+      "keywords": [
+        "分支合并点与连接符号",
+        "connectors",
+        "RT"
+      ],
+      "official_query": "Visio 分支合并点与连接符号",
+      "research_use": "用于连接、连接点和路由相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "RT06"
+    },
+    {
+      "id": "GD01",
+      "title": "标尺、网格与动态网格",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "标尺、网格与动态网格",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 标尺、网格与动态网格",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD01"
+    },
+    {
+      "id": "GD02",
+      "title": "捕捉与粘附的区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "捕捉与粘附的区别",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 捕捉与粘附的区别",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD02"
+    },
+    {
+      "id": "GD03",
+      "title": "参考线和参考点",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "参考线和参考点",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 参考线和参考点",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD03"
+    },
+    {
+      "id": "GD04",
+      "title": "对齐参考对象与空间分布",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "对齐参考对象与空间分布",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 对齐参考对象与空间分布",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD04"
+    },
+    {
+      "id": "GD05",
+      "title": "自动布局方向、间距与局部重排",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "自动布局方向、间距与局部重排",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 自动布局方向、间距与局部重排",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD05"
+    },
+    {
+      "id": "GD06",
+      "title": "前后顺序与遮挡",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M08"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "layout",
+      "keywords": [
+        "前后顺序与遮挡",
+        "layout",
+        "GD"
+      ],
+      "official_query": "Visio 前后顺序与遮挡",
+      "research_use": "用于布局、捕捉和对齐相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GD06"
+    },
+    {
+      "id": "GR01",
+      "title": "组合与容器语义区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "组合与容器语义区别",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 组合与容器语义区别",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR01"
+    },
+    {
+      "id": "GR02",
+      "title": "容器成员、边界及锁定",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "容器成员、边界及锁定",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 容器成员、边界及锁定",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR02"
+    },
+    {
+      "id": "GR03",
+      "title": "有序列表容器与重排",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "有序列表容器与重排",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 有序列表容器与重排",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR03"
+    },
+    {
+      "id": "GR04",
+      "title": "形状多图层归属",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "形状多图层归属",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 形状多图层归属",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR04"
+    },
+    {
+      "id": "GR05",
+      "title": "图层打印、可见与保护",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "图层打印、可见与保护",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 图层打印、可见与保护",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR05"
+    },
+    {
+      "id": "GR06",
+      "title": "标注与被标注对象关联",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M14",
+        "M17",
+        "M04"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "structure",
+      "keywords": [
+        "标注与被标注对象关联",
+        "structure",
+        "GR"
+      ],
+      "official_query": "Visio 标注与被标注对象关联",
+      "research_use": "用于容器、分组、图层和列表相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "GR06"
+    },
+    {
+      "id": "VS01",
+      "title": "主题、变体与快速样式",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "主题、变体与快速样式",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 主题、变体与快速样式",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS01"
+    },
+    {
+      "id": "VS02",
+      "title": "主题覆盖和局部格式",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "主题覆盖和局部格式",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 主题覆盖和局部格式",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS02"
+    },
+    {
+      "id": "VS03",
+      "title": "线端、虚线、粗细与箭头",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "线端、虚线、粗细与箭头",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 线端、虚线、粗细与箭头",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS03"
+    },
+    {
+      "id": "VS04",
+      "title": "透明度、阴影与效果",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "透明度、阴影与效果",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 透明度、阴影与效果",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS04"
+    },
+    {
+      "id": "VS05",
+      "title": "格式复制和样式复用",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "格式复制和样式复用",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 格式复制和样式复用",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS05"
+    },
+    {
+      "id": "VS06",
+      "title": "黑白与色觉友好编码",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M18",
+        "M05"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "style",
+      "keywords": [
+        "黑白与色觉友好编码",
+        "style",
+        "VS"
+      ],
+      "official_query": "Visio 黑白与色觉友好编码",
+      "research_use": "用于主题、颜色与视觉属性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "VS06"
+    },
+    {
+      "id": "FP01",
+      "title": "基本流程图语义与图例",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M03",
+        "M23",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "flow",
+      "keywords": [
+        "基本流程图语义与图例",
+        "flow",
+        "FP"
+      ],
+      "official_query": "Visio 基本流程图语义与图例",
+      "research_use": "用于流程图、泳道和子流程相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FP01"
+    },
+    {
+      "id": "FP02",
+      "title": "跨职能泳道与阶段",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M03",
+        "M23",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "flow",
+      "keywords": [
+        "跨职能泳道与阶段",
+        "flow",
+        "FP"
+      ],
+      "official_query": "Visio 跨职能泳道与阶段",
+      "research_use": "用于流程图、泳道和子流程相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FP02"
+    },
+    {
+      "id": "FP03",
+      "title": "子流程拆页与链接",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M03",
+        "M23",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "flow",
+      "keywords": [
+        "子流程拆页与链接",
+        "flow",
+        "FP"
+      ],
+      "official_query": "Visio 子流程拆页与链接",
+      "research_use": "用于流程图、泳道和子流程相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FP03"
+    },
+    {
+      "id": "FP04",
+      "title": "离页引用和跨页追踪",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M03",
+        "M23",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "flow",
+      "keywords": [
+        "离页引用和跨页追踪",
+        "flow",
+        "FP"
+      ],
+      "official_query": "Visio 离页引用和跨页追踪",
+      "research_use": "用于流程图、泳道和子流程相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FP04"
+    },
+    {
+      "id": "FP05",
+      "title": "审计、工作流与其他业务流程",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M03",
+        "M23",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "flow",
+      "keywords": [
+        "审计、工作流与其他业务流程",
+        "flow",
+        "FP"
+      ],
+      "official_query": "Visio 审计、工作流与其他业务流程",
+      "research_use": "用于流程图、泳道和子流程相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "FP05"
+    },
+    {
+      "id": "NT01",
+      "title": "UML类图与关系基数",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "UML类图与关系基数",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio UML类图与关系基数",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT01"
+    },
+    {
+      "id": "NT02",
+      "title": "UML时序和交互消息",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "UML时序和交互消息",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio UML时序和交互消息",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT02"
+    },
+    {
+      "id": "NT03",
+      "title": "UML活动、状态、用例图",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "UML活动、状态、用例图",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio UML活动、状态、用例图",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT03"
+    },
+    {
+      "id": "NT04",
+      "title": "UML组件、部署和包图",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "UML组件、部署和包图",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio UML组件、部署和包图",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT04"
+    },
+    {
+      "id": "NT05",
+      "title": "ER与Crow’s Foot记法",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "ER与Crow’s Foot记法",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio ER与Crow’s Foot记法",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT05"
+    },
+    {
+      "id": "NT06",
+      "title": "数据库反向工程的版本限制",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "数据库反向工程的版本限制",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio 数据库反向工程的版本限制",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT06"
+    },
+    {
+      "id": "NT07",
+      "title": "DFD层次与数据平衡",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "DFD层次与数据平衡",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio DFD层次与数据平衡",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT07"
+    },
+    {
+      "id": "NT08",
+      "title": "BPMN事件、活动和网关",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "BPMN事件、活动和网关",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio BPMN事件、活动和网关",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT08"
+    },
+    {
+      "id": "NT09",
+      "title": "BPMN池、泳道与消息流",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "BPMN池、泳道与消息流",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio BPMN池、泳道与消息流",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT09"
+    },
+    {
+      "id": "NT10",
+      "title": "IDEF0/SDL/EPC/价值流入口",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M24",
+        "M25",
+        "M27",
+        "M28",
+        "M29"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "notation",
+      "keywords": [
+        "IDEF0/SDL/EPC/价值流入口",
+        "notation",
+        "NT"
+      ],
+      "official_query": "Visio IDEF0/SDL/EPC/价值流入口",
+      "research_use": "用于BPMN、UML、ER和DFD相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NT10"
+    },
+    {
+      "id": "BU01",
+      "title": "组织图数据源、唯一ID和汇报链",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "business",
+      "keywords": [
+        "组织图数据源、唯一ID和汇报链",
+        "business",
+        "BU"
+      ],
+      "official_query": "Visio 组织图数据源、唯一ID和汇报链",
+      "research_use": "用于组织图与商业图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "BU01"
+    },
+    {
+      "id": "BU02",
+      "title": "组织图刷新数据不等于重建结构",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "business",
+      "keywords": [
+        "组织图刷新数据不等于重建结构",
+        "business",
+        "BU"
+      ],
+      "official_query": "Visio 组织图刷新数据不等于重建结构",
+      "research_use": "用于组织图与商业图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "BU02"
+    },
+    {
+      "id": "BU03",
+      "title": "块图、循环、矩阵、金字塔和韦恩图",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "business",
+      "keywords": [
+        "块图、循环、矩阵、金字塔和韦恩图",
+        "business",
+        "BU"
+      ],
+      "official_query": "Visio 块图、循环、矩阵、金字塔和韦恩图",
+      "research_use": "用于组织图与商业图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "BU03"
+    },
+    {
+      "id": "BU04",
+      "title": "因果/鱼骨图与故障树",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "business",
+      "keywords": [
+        "因果/鱼骨图与故障树",
+        "business",
+        "BU"
+      ],
+      "official_query": "Visio 因果/鱼骨图与故障树",
+      "research_use": "用于组织图与商业图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "BU04"
+    },
+    {
+      "id": "BU05",
+      "title": "营销、策略和质量管理图",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M36",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "business",
+      "keywords": [
+        "营销、策略和质量管理图",
+        "business",
+        "BU"
+      ],
+      "official_query": "Visio 营销、策略和质量管理图",
+      "research_use": "用于组织图与商业图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "BU05"
+    },
+    {
+      "id": "PJ01",
+      "title": "时间线里程碑和区间",
+      "status": "document-backed",
+      "module": "references/operations-advanced.md",
+      "source_ids": [
+        "M39",
+        "M40",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "project",
+      "keywords": [
+        "时间线里程碑和区间",
+        "project",
+        "PJ"
+      ],
+      "official_query": "Visio 时间线里程碑和区间",
+      "research_use": "用于时间线、PERT与计划图相关科研表达；需读取具体文档后执行。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PJ01"
+    },
+    {
+      "id": "PJ02",
+      "title": "展开时间线与时间刻度",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M39",
+        "M40",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "project",
+      "keywords": [
+        "展开时间线与时间刻度",
+        "project",
+        "PJ"
+      ],
+      "official_query": "Visio 展开时间线与时间刻度",
+      "research_use": "用于时间线、PERT与计划图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PJ02"
+    },
+    {
+      "id": "PJ03",
+      "title": "今日标记随日期变化",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M39",
+        "M40",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "project",
+      "keywords": [
+        "今日标记随日期变化",
+        "project",
+        "PJ"
+      ],
+      "official_query": "Visio 今日标记随日期变化",
+      "research_use": "用于时间线、PERT与计划图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PJ03"
+    },
+    {
+      "id": "PJ04",
+      "title": "PERT任务依赖",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M39",
+        "M40",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "project",
+      "keywords": [
+        "PERT任务依赖",
+        "project",
+        "PJ"
+      ],
+      "official_query": "Visio PERT任务依赖",
+      "research_use": "用于时间线、PERT与计划图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PJ04"
+    },
+    {
+      "id": "PJ05",
+      "title": "甘特图与日历的专题入口",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M39",
+        "M40",
+        "M06"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "project",
+      "keywords": [
+        "甘特图与日历的专题入口",
+        "project",
+        "PJ"
+      ],
+      "official_query": "Visio 甘特图与日历的专题入口",
+      "research_use": "用于时间线、PERT与计划图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "PJ05"
+    },
+    {
+      "id": "NW01",
+      "title": "基础与详细网络图",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "network",
+      "keywords": [
+        "基础与详细网络图",
+        "network",
+        "NW"
+      ],
+      "official_query": "Visio 基础与详细网络图",
+      "research_use": "用于网络、机架与云架构相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NW01"
+    },
+    {
+      "id": "NW02",
+      "title": "机架设备和物理连接",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "network",
+      "keywords": [
+        "机架设备和物理连接",
+        "network",
+        "NW"
+      ],
+      "official_query": "Visio 机架设备和物理连接",
+      "research_use": "用于网络、机架与云架构相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NW02"
+    },
+    {
+      "id": "NW03",
+      "title": "Azure与AWS架构模板",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "network",
+      "keywords": [
+        "Azure与AWS架构模板",
+        "network",
+        "NW"
+      ],
+      "official_query": "Visio Azure与AWS架构模板",
+      "research_use": "用于网络、机架与云架构相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NW03"
+    },
+    {
+      "id": "NW04",
+      "title": "网络数据与拓扑标记",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "network",
+      "keywords": [
+        "网络数据与拓扑标记",
+        "network",
+        "NW"
+      ],
+      "official_query": "Visio 网络数据与拓扑标记",
+      "research_use": "用于网络、机架与云架构相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NW04"
+    },
+    {
+      "id": "NW05",
+      "title": "逻辑通信与物理连线区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M32",
+        "M33"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "network",
+      "keywords": [
+        "逻辑通信与物理连线区别",
+        "network",
+        "NW"
+      ],
+      "official_query": "Visio 逻辑通信与物理连线区别",
+      "research_use": "用于网络、机架与云架构相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NW05"
+    },
+    {
+      "id": "EN01",
+      "title": "平面图、墙、门和窗",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "平面图、墙、门和窗",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio 平面图、墙、门和窗",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN01"
+    },
+    {
+      "id": "EN02",
+      "title": "空间规划与办公室布局",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "空间规划与办公室布局",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio 空间规划与办公室布局",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN02"
+    },
+    {
+      "id": "EN03",
+      "title": "工程、电气与P&ID模板",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "工程、电气与P&ID模板",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio 工程、电气与P&ID模板",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN03"
+    },
+    {
+      "id": "EN04",
+      "title": "CAD导入及支持的文件版本",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "CAD导入及支持的文件版本",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio CAD导入及支持的文件版本",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN04"
+    },
+    {
+      "id": "EN05",
+      "title": "CAD比例、图层与裁切",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "CAD比例、图层与裁切",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio CAD比例、图层与裁切",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN05"
+    },
+    {
+      "id": "EN06",
+      "title": "CAD对象转换和比例校验",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M06",
+        "M33",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "engineering",
+      "keywords": [
+        "CAD对象转换和比例校验",
+        "engineering",
+        "EN"
+      ],
+      "official_query": "Visio CAD对象转换和比例校验",
+      "research_use": "用于空间、建筑和工程图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "EN06"
+    },
+    {
+      "id": "DA01",
+      "title": "形状数据字段、类型和数据集",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "形状数据字段、类型和数据集",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 形状数据字段、类型和数据集",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA01"
+    },
+    {
+      "id": "DA02",
+      "title": "唯一键和外部数据记录关联",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "唯一键和外部数据记录关联",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 唯一键和外部数据记录关联",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA02"
+    },
+    {
+      "id": "DA03",
+      "title": "手动与自动数据关联",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "手动与自动数据关联",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 手动与自动数据关联",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA03"
+    },
+    {
+      "id": "DA04",
+      "title": "刷新、断链和重新链接",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "刷新、断链和重新链接",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 刷新、断链和重新链接",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA04"
+    },
+    {
+      "id": "DA05",
+      "title": "CSV/Excel过程表到节点关系",
+      "status": "document-backed",
+      "module": "references/operations-advanced.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "CSV/Excel过程表到节点关系",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio CSV/Excel过程表到节点关系",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA05"
+    },
+    {
+      "id": "DA06",
+      "title": "桌面Data Visualizer双向同步",
+      "status": "document-backed",
+      "module": "references/operations-advanced.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "桌面Data Visualizer双向同步",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 桌面Data Visualizer双向同步",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA06"
+    },
+    {
+      "id": "DA07",
+      "title": "数据反写和冲突备份",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M16",
+        "M23"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "data",
+      "keywords": [
+        "数据反写和冲突备份",
+        "data",
+        "DA"
+      ],
+      "official_query": "Visio 数据反写和冲突备份",
+      "research_use": "用于形状数据与数据关联相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DA07"
+    },
+    {
+      "id": "DG01",
+      "title": "数据文字、图标集和数据条",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "数据文字、图标集和数据条",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 数据文字、图标集和数据条",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG01"
+    },
+    {
+      "id": "DG02",
+      "title": "按值着色和阈值解释",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "按值着色和阈值解释",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 按值着色和阈值解释",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG02"
+    },
+    {
+      "id": "DG03",
+      "title": "图例与数据编码",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "图例与数据编码",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 图例与数据编码",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG03"
+    },
+    {
+      "id": "DG04",
+      "title": "透视关系图类别分解",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "透视关系图类别分解",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 透视关系图类别分解",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG04"
+    },
+    {
+      "id": "DG05",
+      "title": "透视聚合与筛选",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "透视聚合与筛选",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 透视聚合与筛选",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG05"
+    },
+    {
+      "id": "DG06",
+      "title": "数据图不能替代统计图的尺度",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M23",
+        "M38"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "datagraphics",
+      "keywords": [
+        "数据图不能替代统计图的尺度",
+        "datagraphics",
+        "DG"
+      ],
+      "official_query": "Visio 数据图不能替代统计图的尺度",
+      "research_use": "用于数据图形和透视关系图相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "DG06"
+    },
+    {
+      "id": "QA01",
+      "title": "结构化图规则集和问题列表",
+      "status": "document-backed",
+      "module": "references/operations-advanced.md",
+      "source_ids": [
+        "M25",
+        "M41"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "validation",
+      "keywords": [
+        "结构化图规则集和问题列表",
+        "validation",
+        "QA"
+      ],
+      "official_query": "Visio 结构化图规则集和问题列表",
+      "research_use": "用于规则、检查和可访问性相关科研表达；需读取具体文档后执行。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "QA01"
+    },
+    {
+      "id": "QA02",
+      "title": "忽略问题与检查范围",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M25",
+        "M41"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "validation",
+      "keywords": [
+        "忽略问题与检查范围",
+        "validation",
+        "QA"
+      ],
+      "official_query": "Visio 忽略问题与检查范围",
+      "research_use": "用于规则、检查和可访问性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "QA02"
+    },
+    {
+      "id": "QA03",
+      "title": "辅助功能检查器",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M25",
+        "M41"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "validation",
+      "keywords": [
+        "辅助功能检查器",
+        "validation",
+        "QA"
+      ],
+      "official_query": "Visio 辅助功能检查器",
+      "research_use": "用于规则、检查和可访问性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "QA03"
+    },
+    {
+      "id": "QA04",
+      "title": "替代文本和阅读顺序",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M25",
+        "M41"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "validation",
+      "keywords": [
+        "替代文本和阅读顺序",
+        "validation",
+        "QA"
+      ],
+      "official_query": "Visio 替代文本和阅读顺序",
+      "research_use": "用于规则、检查和可访问性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "QA04"
+    },
+    {
+      "id": "QA05",
+      "title": "无障碍输出与人工复核",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M25",
+        "M41"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "validation",
+      "keywords": [
+        "无障碍输出与人工复核",
+        "validation",
+        "QA"
+      ],
+      "official_query": "Visio 无障碍输出与人工复核",
+      "research_use": "用于规则、检查和可访问性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "QA05"
+    },
+    {
+      "id": "CO01",
+      "title": "文件共享权限与链接",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M01",
+        "M32"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "collaboration",
+      "keywords": [
+        "文件共享权限与链接",
+        "collaboration",
+        "CO"
+      ],
+      "official_query": "Visio 文件共享权限与链接",
+      "research_use": "用于共享、协作和审阅相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "CO01"
+    },
+    {
+      "id": "CO02",
+      "title": "共同编辑与冲突核对",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M01",
+        "M32"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "collaboration",
+      "keywords": [
+        "共同编辑与冲突核对",
+        "collaboration",
+        "CO"
+      ],
+      "official_query": "Visio 共同编辑与冲突核对",
+      "research_use": "用于共享、协作和审阅相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "CO02"
+    },
+    {
+      "id": "CO03",
+      "title": "评论和审阅记录",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M01",
+        "M32"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "collaboration",
+      "keywords": [
+        "评论和审阅记录",
+        "collaboration",
+        "CO"
+      ],
+      "official_query": "Visio 评论和审阅记录",
+      "research_use": "用于共享、协作和审阅相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "CO03"
+    },
+    {
+      "id": "CO04",
+      "title": "云端与本地保存边界",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M01",
+        "M32"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "collaboration",
+      "keywords": [
+        "云端与本地保存边界",
+        "collaboration",
+        "CO"
+      ],
+      "official_query": "Visio 云端与本地保存边界",
+      "research_use": "用于共享、协作和审阅相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "CO04"
+    },
+    {
+      "id": "CO05",
+      "title": "修订与版本恢复的产品依赖",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M01",
+        "M32"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "collaboration",
+      "keywords": [
+        "修订与版本恢复的产品依赖",
+        "collaboration",
+        "CO"
+      ],
+      "official_query": "Visio 修订与版本恢复的产品依赖",
+      "research_use": "用于共享、协作和审阅相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "CO05"
+    },
+    {
+      "id": "NV01",
+      "title": "形状和页面超链接",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M39"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "navigation",
+      "keywords": [
+        "形状和页面超链接",
+        "navigation",
+        "NV"
+      ],
+      "official_query": "Visio 形状和页面超链接",
+      "research_use": "用于超链接、跨页与演示相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NV01"
+    },
+    {
+      "id": "NV02",
+      "title": "跨页或跨文档导航",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M39"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "navigation",
+      "keywords": [
+        "跨页或跨文档导航",
+        "navigation",
+        "NV"
+      ],
+      "official_query": "Visio 跨页或跨文档导航",
+      "research_use": "用于超链接、跨页与演示相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NV02"
+    },
+    {
+      "id": "NV03",
+      "title": "演示与缩放导航",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M39"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "navigation",
+      "keywords": [
+        "演示与缩放导航",
+        "navigation",
+        "NV"
+      ],
+      "official_query": "Visio 演示与缩放导航",
+      "research_use": "用于超链接、跨页与演示相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NV03"
+    },
+    {
+      "id": "NV04",
+      "title": "PowerPoint幻灯片片段",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M39"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "navigation",
+      "keywords": [
+        "PowerPoint幻灯片片段",
+        "navigation",
+        "NV"
+      ],
+      "official_query": "Visio PowerPoint幻灯片片段",
+      "research_use": "用于超链接、跨页与演示相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NV04"
+    },
+    {
+      "id": "NV05",
+      "title": "Word文档与论文插图交付",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M05",
+        "M39"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "navigation",
+      "keywords": [
+        "Word文档与论文插图交付",
+        "navigation",
+        "NV"
+      ],
+      "official_query": "Visio Word文档与论文插图交付",
+      "research_use": "用于超链接、跨页与演示相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "NV05"
+    },
+    {
+      "id": "IO01",
+      "title": "插入图片和外部对象",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "插入图片和外部对象",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio 插入图片和外部对象",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO01"
+    },
+    {
+      "id": "IO02",
+      "title": "OLE链接与嵌入风险",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "OLE链接与嵌入风险",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio OLE链接与嵌入风险",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO02"
+    },
+    {
+      "id": "IO03",
+      "title": "图像导出尺寸与DPI",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "图像导出尺寸与DPI",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio 图像导出尺寸与DPI",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO03"
+    },
+    {
+      "id": "IO04",
+      "title": "SVG/PDF/EMF等格式兼容",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "SVG/PDF/EMF等格式兼容",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio SVG/PDF/EMF等格式兼容",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO04"
+    },
+    {
+      "id": "IO05",
+      "title": "旧VSD文件与兼容性",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "旧VSD文件与兼容性",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio 旧VSD文件与兼容性",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO05"
+    },
+    {
+      "id": "IO06",
+      "title": "Power BI嵌入和交互",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "Power BI嵌入和交互",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio Power BI嵌入和交互",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO06"
+    },
+    {
+      "id": "IO07",
+      "title": "打印、PDF和无损交付边界",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M13",
+        "M32",
+        "M37"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "interop",
+      "keywords": [
+        "打印、PDF和无损交付边界",
+        "interop",
+        "IO"
+      ],
+      "official_query": "Visio 打印、PDF和无损交付边界",
+      "research_use": "用于导入、导出与Office互操作相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "IO07"
+    },
+    {
+      "id": "SS01",
+      "title": "ShapeSheet节、行与单元格",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "ShapeSheet节、行与单元格",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio ShapeSheet节、行与单元格",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS01"
+    },
+    {
+      "id": "SS02",
+      "title": "公式与显示值区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "公式与显示值区别",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio 公式与显示值区别",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS02"
+    },
+    {
+      "id": "SS03",
+      "title": "单元格引用和继承",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "单元格引用和继承",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio 单元格引用和继承",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS03"
+    },
+    {
+      "id": "SS04",
+      "title": "Shape Transform与局部针脚",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "Shape Transform与局部针脚",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio Shape Transform与局部针脚",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS04"
+    },
+    {
+      "id": "SS05",
+      "title": "Geometry/Connection Points节",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "Geometry/Connection Points节",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio Geometry/Connection Points节",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS05"
+    },
+    {
+      "id": "SS06",
+      "title": "User/Prop自定义数据",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "User/Prop自定义数据",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio User/Prop自定义数据",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS06"
+    },
+    {
+      "id": "SS07",
+      "title": "GUARD和保护行为检索",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "GUARD和保护行为检索",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio GUARD和保护行为检索",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS07"
+    },
+    {
+      "id": "SS08",
+      "title": "单位、通用名称与本地名称",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "单位、通用名称与本地名称",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio 单位、通用名称与本地名称",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS08"
+    },
+    {
+      "id": "SS09",
+      "title": "Actions/Controls/Events入口",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M20",
+        "M34",
+        "M35"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "shapesheet",
+      "keywords": [
+        "Actions/Controls/Events入口",
+        "shapesheet",
+        "SS"
+      ],
+      "official_query": "Visio Actions/Controls/Events入口",
+      "research_use": "用于ShapeSheet与智能形状相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "SS09"
+    },
+    {
+      "id": "AU01",
+      "title": "VBA对象：Document/Page/Shape",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "VBA对象：Document/Page/Shape",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio VBA对象：Document/Page/Shape",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU01"
+    },
+    {
+      "id": "AU02",
+      "title": "CellsU/FormulaU通用名称入口",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "CellsU/FormulaU通用名称入口",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio CellsU/FormulaU通用名称入口",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU02"
+    },
+    {
+      "id": "AU03",
+      "title": "事件、撤销事务和批量操作",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "事件、撤销事务和批量操作",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio 事件、撤销事务和批量操作",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU03"
+    },
+    {
+      "id": "AU04",
+      "title": "VBA/COM桌面自动化边界",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "VBA/COM桌面自动化边界",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio VBA/COM桌面自动化边界",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU04"
+    },
+    {
+      "id": "AU05",
+      "title": "嵌入Visio的JavaScript API",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "嵌入Visio的JavaScript API",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio 嵌入Visio的JavaScript API",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU05"
+    },
+    {
+      "id": "AU06",
+      "title": "Office插件与VBA能力区别",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "Office插件与VBA能力区别",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio Office插件与VBA能力区别",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU06"
+    },
+    {
+      "id": "AU07",
+      "title": "VSDX结构与SDK专题检索",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "VSDX结构与SDK专题检索",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio VSDX结构与SDK专题检索",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU07"
+    },
+    {
+      "id": "AU08",
+      "title": "宏安全和不可信外部对象",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M21",
+        "M22"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "automation",
+      "keywords": [
+        "宏安全和不可信外部对象",
+        "automation",
+        "AU"
+      ],
+      "official_query": "Visio 宏安全和不可信外部对象",
+      "research_use": "用于VBA、对象模型与嵌入API相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "AU08"
+    },
+    {
+      "id": "LC01",
+      "title": "Excel Data Visualizer加载项退役",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M32",
+        "M33",
+        "M42",
+        "M43"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "lifecycle",
+      "keywords": [
+        "Excel Data Visualizer加载项退役",
+        "lifecycle",
+        "LC"
+      ],
+      "official_query": "Visio Excel Data Visualizer加载项退役",
+      "research_use": "用于历史功能、退役与兼容性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "retired",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "LC01"
+    },
+    {
+      "id": "LC02",
+      "title": "桌面Data Visualizer非同一产品",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M32",
+        "M33",
+        "M42",
+        "M43"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "lifecycle",
+      "keywords": [
+        "桌面Data Visualizer非同一产品",
+        "lifecycle",
+        "LC"
+      ],
+      "official_query": "Visio 桌面Data Visualizer非同一产品",
+      "research_use": "用于历史功能、退役与兼容性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "LC02"
+    },
+    {
+      "id": "LC03",
+      "title": "旧教程菜单和版本漂移",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M32",
+        "M33",
+        "M42",
+        "M43"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "lifecycle",
+      "keywords": [
+        "旧教程菜单和版本漂移",
+        "lifecycle",
+        "LC"
+      ],
+      "official_query": "Visio 旧教程菜单和版本漂移",
+      "research_use": "用于历史功能、退役与兼容性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "LC03"
+    },
+    {
+      "id": "LC04",
+      "title": "停用功能与替代路线",
+      "status": "index-only",
+      "module": "references/operations-extended-index.md",
+      "source_ids": [
+        "M32",
+        "M33",
+        "M42",
+        "M43"
+      ],
+      "platform": "按单项官方章节核验",
+      "family": "lifecycle",
+      "keywords": [
+        "停用功能与替代路线",
+        "lifecycle",
+        "LC"
+      ],
+      "official_query": "Visio 停用功能与替代路线",
+      "research_use": "用于历史功能、退役与兼容性相关科研表达；需读取具体文档后执行。",
+      "verification": "index-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "本条是功能族子项导航；读取精确页面并核对许可后才能给菜单。",
+      "operation_anchor": "LC04"
+    },
+    {
+      "id": "MM01",
+      "title": "新建桌面头脑风暴图",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M30"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "新建桌面头脑风暴图"
+      ],
+      "official_query": "Visio mind map brainstorming 新建桌面头脑风暴图",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM01"
+    },
+    {
+      "id": "MM02",
+      "title": "增加同级与子主题",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M30"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "增加同级与子主题"
+      ],
+      "official_query": "Visio mind map brainstorming 增加同级与子主题",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM02"
+    },
+    {
+      "id": "MM03",
+      "title": "批量增加子主题",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M30"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "批量增加子主题"
+      ],
+      "official_query": "Visio mind map brainstorming 批量增加子主题",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM03"
+    },
+    {
+      "id": "MM04",
+      "title": "大纲窗口重新设定父主题",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "大纲窗口重新设定父主题"
+      ],
+      "official_query": "Visio mind map brainstorming 大纲窗口重新设定父主题",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM04"
+    },
+    {
+      "id": "MM05",
+      "title": "自动整理与子树移动",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "自动整理与子树移动"
+      ],
+      "official_query": "Visio mind map brainstorming 自动整理与子树移动",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM05"
+    },
+    {
+      "id": "MM06",
+      "title": "用关联线表达非层级关系",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "桌面",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "用关联线表达非层级关系"
+      ],
+      "official_query": "Visio mind map brainstorming 用关联线表达非层级关系",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM06"
+    },
+    {
+      "id": "MM07",
+      "title": "新建网页版思维导图",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M30"
+      ],
+      "platform": "网页Plan 1/Plan 2",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "新建网页版思维导图"
+      ],
+      "official_query": "Visio mind map brainstorming 新建网页版思维导图",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM07"
+    },
+    {
+      "id": "MM08",
+      "title": "网页版新增子主题与同级主题",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "网页Plan 1/Plan 2",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "网页版新增子主题与同级主题"
+      ],
+      "official_query": "Visio mind map brainstorming 网页版新增子主题与同级主题",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM08"
+    },
+    {
+      "id": "MM09",
+      "title": "网页版重新设定父节点",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "网页Plan 1/Plan 2",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "网页版重新设定父节点"
+      ],
+      "official_query": "Visio mind map brainstorming 网页版重新设定父节点",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM09"
+    },
+    {
+      "id": "MM10",
+      "title": "网页版删除单节点与整子树区别",
+      "status": "document-backed",
+      "module": "references/operations-mindmap.md",
+      "source_ids": [
+        "M31"
+      ],
+      "platform": "网页Plan 1/Plan 2",
+      "family": "mindmap",
+      "keywords": [
+        "思维导图",
+        "脑图",
+        "头脑风暴",
+        "mind map",
+        "brainstorming",
+        "网页版删除单节点与整子树区别"
+      ],
+      "official_query": "Visio mind map brainstorming 网页版删除单节点与整子树区别",
+      "research_use": "组织论文阅读结构；树边不表示先后或因果。",
+      "verification": "document-only",
+      "runtime_tested": false,
+      "lifecycle": "check-current-docs",
+      "edition_rule": "桌面与网页分开；Plan 1/2门槛不等于所有Microsoft 365用户可用。",
+      "operation_anchor": "MM10"
+    }
+  ],
+  "count_policy": "条目含原有概览与新增细分，数量不可当作软件功能总数或完成比例。"
+}

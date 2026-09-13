@@ -1,0 +1,2 @@
+# Preserve release-manifest byte hashes even with Windows core.autocrlf.
+* -text

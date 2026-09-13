@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "paper_id": "SYN-ASSOC",
+  "figure_id": "F-ASSOC",
+  "title": "Concept relationship without causal overstatement",
+  "purpose": "Concept relationship without causal overstatement",
+  "use": "publication",
+  "graph_type": "concept_map",
+  "detail_level": "overview",
+  "root_id": null,
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "Platform use",
+      "role": "concept",
+      "item_ids": [
+        "I1"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N2",
+      "label": "Reported\nproductivity",
+      "role": "concept",
+      "item_ids": [
+        "I2"
+      ],
+      "support": "explicit"
+    },
+    {
+      "id": "N3",
+      "label": "No causal conclusion",
+      "role": "annotation",
+      "item_ids": [
+        "I3"
+      ],
+      "support": "explicit"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "from": "N1",
+      "to": "N2",
+      "kind": "association",
+      "label": "associated with",
+      "source_relation_ids": [
+        "R1"
+      ],
+      "support": "explicit",
+      "reverse_relation": false
+    }
+  ],
+  "must_keep_item_ids": [
+    "I3"
+  ],
+  "omissions": [],
+  "caption": "Synthetic teaching example: association only; no causal conclusion, effect size or empirical data is supplied.",
+  "uncertainty_disclosure": "",
+  "capability_ids": [
+    "SH01",
+    "CN01",
+    "TX05"
+  ]
+}

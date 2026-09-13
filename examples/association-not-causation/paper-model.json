@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "id": "SYN-ASSOC",
+    "title": "Association, not causation (synthetic)",
+    "kind": "empirical",
+    "input_scope": "full_text",
+    "source_status": "synthetic",
+    "question": "What relationship is described?",
+    "main_claim": "Only an association is described, without a causal conclusion.",
+    "understanding_status": "evidence_linked"
+  },
+  "coverage": [
+    {
+      "section": "Entire synthetic teaching note",
+      "status": "read"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "S1",
+      "source": "synthetic-paper.md",
+      "locator": "P1",
+      "paraphrase": "Two concepts and an association, without numeric data.",
+      "available": true
+    },
+    {
+      "id": "S2",
+      "source": "synthetic-paper.md",
+      "locator": "P2",
+      "paraphrase": "No causal identification or causal conclusion.",
+      "available": true
+    }
+  ],
+  "items": [
+    {
+      "id": "I1",
+      "type": "concept",
+      "statement": "Platform use",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "I2",
+      "type": "concept",
+      "statement": "Reported productivity",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "I3",
+      "type": "limitation",
+      "statement": "Association is not a causal conclusion here.",
+      "support": "explicit",
+      "evidence_ids": [
+        "S2"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "R1",
+      "from": "I1",
+      "to": "I2",
+      "kind": "associated_with",
+      "support": "explicit",
+      "evidence_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "unknowns": []
+}
