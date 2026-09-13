@@ -1,183 +1,375 @@
 # Visio Academic Diagrams
 
-**让 AI 先理解论文中的问题、方法与证据，再把正确的关系转成可在 Visio 中实现的图。**
+**让 AI 先理解论文中的问题、方法与证据，再把正确的关系转化为可在 Microsoft Visio 中实现的科研图。**
 
-`v0.2.0` · 中文优先 · Agent Skills 目录格式 · Python 3.10+ 可选静态检查 · 原创部分 MIT
+`v0.2.0` · 中文优先 · Agent Skills 目录结构 · Python 3.10+ 可选静态检查 · MIT（原创部分）
 
-[快速使用](#快速使用) · [功能边界](#功能边界) · [示例](examples/README.md) · [AI入口](SKILL.md) · [功能索引](references/INDEX.md) · [验证记录](VALIDATION.md) · [公开发布](docs/GITHUB-PUBLISH.md) · [English](README.en.md)
+[快速开始](#快速开始) · [核心能力](#核心能力) · [工作流程](#工作流程) · [示例](examples/README.md) · [AI 入口](SKILL.md) · [功能索引](references/INDEX.md) · [验证记录](VALIDATION.md) · [English](README.en.md)
 
-## 这是什么
+---
 
-一个可按需读取的科研制图 Skill 与知识库。它不是 Visio 插件、桌面控制程序或论文自动理解模型，也不是微软教程的全文镜像。
+## 项目定位
 
-它把原来的“制图教程 → 操作指导”改造成：
+`visio-academic-diagrams` 是一个面向科研场景的 **Agent Skill + 可检索知识库**。
+
+它的目标不是让 AI 只会“画几个框和箭头”，而是建立一条完整链路：
 
 ```text
-论文、方法草稿、伪代码、公式或研究提纲
-    ↓ 阅读范围、术语、假设、论点、方法、证据、局限
-paper-model.json：带来源定位的论文内容模型
-    ↓ 图的目标、节点、关系类型、必要内容、明确省略项
-figure-plan.json：与软件无关的语义图方案
-    ↓ 选择真正需要的 Visio 功能，核对版本和许可证
-layout.json：形状、尺寸、中心坐标、连线、字号与导出条件
-    ↓ 每一步都有对象、菜单、数值、预期结果和检查方式
-你在 Visio 实现 → 截图/源文件审查 → 修改 → 投稿输出
+论文 / 方法草稿 / 伪代码 / 公式 / 研究提纲
+        ↓
+理解研究问题、假设、方法、证据、局限与术语
+        ↓
+建立 paper-model.json：带来源定位的论文内容模型
+        ↓
+选择真正适合的图种，并建立 figure-plan.json
+        ↓
+确定节点、关系、图层、尺寸、字号、连接线与版面
+        ↓
+生成可执行的 Visio 操作步骤
+        ↓
+用户在 Visio 中实现
+        ↓
+截图 / 源文件复核 → 修改 → 论文或报告输出
 ```
 
-同一篇论文可以生成不同视图，而不是把所有内容挤进一张流程图：**阅读思维导图**解释“这篇论文讲什么”，**方法流程图**解释“它如何执行”，**证据图或证明依赖图**解释“为什么可以得出结论”。视图共享内容 ID，但不共享错误的箭头语义。
+同一篇论文不应该被机械地塞进一张流程图。
 
-## v0.2.0 的主要变化
+本 Skill 会区分不同表达任务，例如：
 
-| 方面 | 已实现 |
+- **阅读思维导图**：解释“论文讲了什么”
+- **方法流程图**：解释“方法如何执行”
+- **数据流 / 系统图**：解释“信息如何传递”
+- **概念关系图**：解释“变量、机制与概念如何关联”
+- **证据图 / 证明依赖图**：解释“结论依赖哪些证据或前提”
+
+这些图可以共享同一份研究内容模型，但不会把“包含关系”“相关关系”“数据流”和“控制流”错误地画成同一种箭头。
+
+---
+
+## 核心能力
+
+### 1. 先理解论文，再设计图
+
+Skill 会先提取：
+
+- 研究问题与研究对象
+- 背景缺口
+- 假设与前提
+- 输入、输出与关键变量
+- 算法 / 方法步骤
+- 关键公式与参数
+- 数据来源与验证方案
+- 主要结果与局限
+- 论文明确陈述、合理推断、设计建议和未知信息
+
+科学陈述会区分：
+
+```text
+explicit   原文明确陈述
+inferred   基于材料的推断
+proposed   AI提出的设计建议
+unknown    当前材料无法确定
+```
+
+目标是避免为了排版而补造论文中不存在的步骤、条件、数据或结论。
+
+### 2. 不先画图，而是先选对图
+
+AI 会先回答：
+
+> 这张图究竟要让读者理解什么？
+
+再选择适合的表达形式。
+
+| 研究内容 | 更适合的图 |
 |---|---|
-| Visio 知识组织 | 26 个功能族、220 个能力/专题入口；54 项有文档支持的操作路线，166 项为需继续查证的专题索引 |
-| 功能理解 | 不只记菜单：解释形状、模具、主控形状、实例、连接、容器、图层、数据关联与自动化的区别 |
-| 论文理解 | 按研究问题、输入输出、假设、方法、贡献声明、证据、结果、局限建立内容模型；标明已读和未读范围 |
-| 论文类型 | 算法、机器学习、实证、理论、综述、定性、系统和其他研究分别选取适当的阅读与制图策略 |
-| 科学语义 | 区分层级、控制流、数据流、依赖、相关、因果、证据和消息；不为美观虚构步骤或结论 |
-| 可追溯性 | 节点与边关联内容 ID/证据 ID；区分原文陈述、推断、设计建议、未知项 |
-| 示例与检查 | 原版逐步实例 + 3 组原创合成材料、4 组论文/语义图/坐标配套示例；74 项自动测试 |
-| 可维护性 | 57 项来源登记、版本/生命周期提示、离线检索、原始来源阅读深度、SHA-256 发布文件清单 |
+| 算法执行步骤 | 流程图 |
+| 论文阅读结构 | 思维导图 |
+| 模块与接口 | 系统架构图 |
+| 输入—处理—输出 | 数据管线图 |
+| 理论变量关系 | 概念关系图 |
+| 假设、证据与结论 | 证据图 |
+| 定理或结论依赖 | 证明依赖图 |
 
-**这些是本仓库的条目数，不是 Visio 的功能总数，也不是“已掌握全部功能”的证明。** 具体范围见[功能边界](#功能边界)。
+复杂研究可以拆成多个互补视图，而不是追求一张“大而全”的图。
 
-## 快速使用
+### 3. Visio 功能知识导航
 
-### 作为本地 Agent Skill
+当前版本将 Visio 能力组织为 **26 个功能族、220 个能力 / 专题入口**，覆盖页面与画布、Shape / Stencil / Master、文本、尺寸与位置、Connector、连接点、Align / Distribute、Container、Layer、Brainstorming、Flowchart、数据关联、Data Graphics、ShapeSheet、自动化、API、导出与出版准备。
 
-保留整个文件夹，目录名为 `visio-academic-diagrams`。在支持本地技能的 Codex 环境中放入以下位置之一，避免安装重复副本：[A01][A02]
+机器可读入口：
 
-```text
-项目目录/.agents/skills/visio-academic-diagrams/SKILL.md
-或
-$HOME/.agents/skills/visio-academic-diagrams/SKILL.md
-```
+- [功能族图谱](references/feature-atlas.md)
+- [能力表](assets/capabilities.json)
+- [扩展操作索引](references/operations-extended-index.md)
 
-Windows 的个人目录通常是 `%USERPROFILE%\.agents\skills\`。`SKILL.md` 的同级 `references/`、`assets/`、`examples/` 和 `scripts/` 不能丢失。
+> `document-backed` 表示本仓库已有官方文档依据和操作路线，但不等于已经在你的具体 Visio 版本中实机验证。  
+> `index-only` 表示它是检索入口；需要先查精确官方章节，再给出具体菜单或 API 参数。
 
-在 Codex CLI/IDE 的技能选择器中选择本技能，或在请求中写 `$visio-academic-diagrams`。普通聊天可上传整个包，让具备文件读取能力的 AI 先解压读取 `SKILL.md`，再按需读取索引和模块。上传一次不代表永久记忆，也不代表安装成账户级插件。[A02]
+### 4. 把图设计翻译为可执行 Visio 步骤
 
-### 用于阅读论文
+输出不会停留在“在 Visio 里画一个流程图”，而会尽量具体到对象、前置条件、菜单、参数、预期结果、检查与回退。
 
-```text
-使用 $visio-academic-diagrams。
-先读取我提供的论文，明确已读范围、未读范围、研究问题和论证结构。
-建立带页码/章节定位的内容模型，不要把推断写成原文事实。
-为理解论文设计一张思维导图，并说明父子关系和跨主题关联各代表什么。
-再判断这篇论文是否还需要方法流程图、证据图或证明依赖图。
-我使用的 Visio 环境是：……
-```
+---
 
-### 用于论文方法制图
+## 工作流程
 
-```text
-使用 $visio-academic-diagrams。
-根据下面的方法草稿，先检查输入输出、算法分支、循环和终止条件。
-输出：内容模型摘要、图方案、节点/边表、最终尺寸、毫米坐标和手工操作步骤。
-区分算法控制流和数据依赖；所有设计建议都单独标注。
-每一步写清选择哪个对象、打开哪个菜单、输入什么数值、如何检查。
-期刊尚未确定，不要把通用样式冒充期刊强制标准。
-方法如下：……
-```
+### 第 1 步：理解研究材料
 
-### 用于现有图审查或功能查找
+先读：
 
-```text
-使用 $visio-academic-diagrams 检查这张图。
-先检查科研逻辑和关系，再检查排版；最后给对应 Visio 修复步骤。
-没有源文件时，不要声称已经验证真实粘附、字体嵌入或隐藏数据。
-```
+- [论文理解协议](references/paper-understanding.md)
+- [论文类型](references/paper-types.md)
 
-无需运行 Python 就能使用文字 Skill。需要离线查功能时：
+建立 `paper-model.json`，记录研究事实、证据定位、推断与未知项。
+
+### 第 2 步：确定图的任务
+
+先用一句话定义：
+
+> 这张图希望读者在 10–20 秒内理解什么？
+
+再使用：
+
+- [图种选择](references/diagram-selection.md)
+- [关系语义](references/graph-semantics.md)
+
+建立 `figure-plan.json`。
+
+### 第 3 步：映射到 Visio 功能
+
+按任务读取：
+
+- [科研到 Visio 映射](references/research-to-visio.md)
+- [页面](references/operations-page.md)
+- [形状](references/operations-shapes.md)
+- [连接](references/operations-connectors.md)
+- [布局](references/operations-layout.md)
+- [文本](references/operations-text.md)
+- [结构化对象](references/operations-structure.md)
+- [高级功能](references/operations-advanced.md)
+
+### 第 4 步：形成布局规格
+
+记录节点 ID、形状类型、宽高、坐标、字号、线宽、连接关系、图层、页面尺寸与导出条件。
+
+### 第 5 步：在 Visio 中实现并复核
+
+复核顺序：
+
+1. 科研逻辑
+2. 节点与关系
+3. 图形语义
+4. 对齐与间距
+5. 字号与线宽
+6. 最终物理尺寸
+7. 黑白 / 灰度可读性
+8. 导出格式与目标期刊要求
+
+---
+
+## 快速开始
+
+### 方法 A：克隆仓库
 
 ```bash
-python scripts/lookup_capability.py "思维导图"
-python scripts/lookup_capability.py "ShapeSheet" --limit 8
-python scripts/lookup_capability.py "LC01" --json
+git clone https://github.com/Zhang646967/visio-academic-diagrams.git
 ```
 
-`index-only` 的结果会指向官方检索路线；AI 必须先取得具体章节，不能凭索引捏造操作步骤。
-
-## 从一段方法形成两张不同的图
-
-[paper-to-multiview 示例](examples/paper-to-multiview/README.md) 使用原创教学方法：初始化、评价候选、判断预算、更新并循环。它**没有**真实实验数据，也不宣称全局最优。
-
-阅读图围绕“问题、方法、证据和局限”组织主题，父子线不表示算法顺序。算法图则保留判断的 Yes/No 出口和正确回边。两张图关联同一份内容模型，因此改动一个方法事实时，可以检查两张图是否同时更新。
-
-另有[相关不等于因果](examples/association-not-causation/README.md)和[证明依赖](examples/proof-dependencies/README.md)示例，演示为什么不能把每条关系都画成普通流程箭头。
-
-原版[16步迭代流程操作](examples/iterative-optimization/walkthrough.zh-CN.md)仍保留，用于查看详细菜单、数值和检查点的交付样式。所有坐标都是设计规格，**没有附加假装已经在 Visio 渲染的图片或 `.vsdx` 文件**。
-
-## 功能边界
-
-### “所有功能”采用导航覆盖，不采用虚假的穷尽承诺
-
-[功能族说明](references/feature-atlas.md)与[机器可读能力表](assets/capabilities.json)提供从常用到高级功能的入口，包括页面、形状、连接、文本、布局、脑图、专用图种、数据、协作、导出、ShapeSheet 和 API。
-
-`document-backed` 表示本包有官方依据和操作路线，**不表示用户版本实测**。`index-only` 表示仅建立功能含义、使用场景及官方查询路线，不能直接给精确菜单。不同版别、许可、语言、平台和更新阶段需另行核实。
-
-微软的脑图文档区分桌面 Brainstorming 与网页操作[M30][M31]。Excel 的 Visio Data Visualizer 加载项已在官方退役安排中于 **2026-03-02** 停止服务；这与桌面版 Data Visualizer 模板不是同一功能[M23][M42][M43]。退役入口保留用于识别旧教程，不用于新操作方案。
-
-### “任意论文”采用通用阅读协议，不声称理解保证
-
-它可以接收不同学科材料并据此选择策略，但复杂专业结论仍须结合原文、专业知识和作者核对。只读取摘要不能生成可复现级算法；数据不全不能补造结果；原文假说即使是直接陈述，也仍是“假说”。
-
-脚本检查声明的结构、来源 ID 和关系类型，**不会判断引文是否真正支持某个陈述**，不会证明定理、验证因果识别、识别所有数据泄漏或替代同行评议。见[论文理解协议](references/paper-understanding.md)。
-
-### “符合论文标准”以目标期刊为条件
-
-本包将通用设计建议与 IEEE、Elsevier、PLOS ONE 等来源快照分开。字号、线宽、图宽、分辨率和允许格式需要按最终投稿指南核验；不把 A4 当单栏图宽，不把截图当默认终稿，不把 SVG/PDF 后缀当内容完全矢量的证明。[P01]–[P09] 对应条目见[来源登记](references/source-register.md)及[出版配置](references/publication-profiles.md)。
-
-## 目录与维护入口
+然后将整个 `visio-academic-diagrams` 文件夹放入支持本地 Agent Skills 的目录，例如：
 
 ```text
-SKILL.md                      AI的任务路由与约束
-references/                   论文理解、功能机制、操作、图种、期刊、审图
-assets/                       功能/来源登记、Schema、输入与输出模板
-examples/                     原创材料、语义图、坐标和手工步骤
-scripts/                      检索、结构检查、打包及显式GitHub发布
-agents/openai.yaml            可选宿主显示配置
-tests/                       单元测试、人工评测场景、真实运行记录
-docs/                        架构、发布、维护及历史记录
-README.md / README.en.md      中文与英文使用说明
-LICENSE / SOURCES-NOTICE.md    原创许可与外部来源边界
-manifest.sha256               经审查的发布文件清单与哈希
+项目目录/.agents/skills/visio-academic-diagrams/
 ```
 
-阅读入口：[AI工作流](SKILL.md) · [论文分类](references/paper-types.md) · [图种选择](references/diagram-selection.md) · [科研到Visio映射](references/research-to-visio.md) · [更新方法](references/knowledge-maintenance.md)。
+或：
 
-## 检查与构建
+```text
+$HOME/.agents/skills/visio-academic-diagrams/
+```
 
-在技能根目录运行。工具仅用 Python 标准库，无需额外安装 Python 包；Visio 人工试做仍需用户自己的软件环境。
+Windows 常见个人目录：
+
+```text
+%USERPROFILE%\.agents\skills\visio-academic-diagrams\
+```
+
+不要只复制 `SKILL.md`。`references/`、`assets/`、`examples/`、`scripts/` 等配套内容也需要保留。
+
+### 方法 B：普通聊天中临时使用
+
+将仓库压缩后上传给具备文件读取能力的 AI，并要求它：
+
+```text
+先读取 SKILL.md，
+然后按照其中的任务路由按需读取 references、assets 和 examples。
+```
+
+上传文件只代表当前对话可用，不等于安装成永久技能。
+
+---
+
+## 推荐提示词
+
+### 论文 → 思维导图 / 流程图
+
+```text
+使用 $visio-academic-diagrams。
+
+先阅读我提供的论文，明确实际读到的范围、
+研究问题、假设、方法、证据、结果与局限。
+
+先建立论文内容模型，再判断最适合的图种。
+如果一张图无法准确表达，请拆成互补视图。
+
+对于最终推荐的图：
+1. 给出节点和关系表；
+2. 解释每条箭头的科学含义；
+3. 给出最终尺寸与布局方案；
+4. 给出逐步 Visio 操作；
+5. 每一步写明对象、菜单、参数、预期结果、检查与回退。
+```
+
+### 算法 / 优化方法 → 方法流程图
+
+```text
+使用 $visio-academic-diagrams。
+
+根据下面的方法草稿检查：
+输入、输出、初始化、循环、分支、停止条件、
+失败路径以及数据依赖。
+
+区分控制流和数据流。
+不要因为排版方便而补造方法步骤。
+
+然后设计适合论文正文的流程图，
+给出节点/边表、布局、毫米尺寸和逐步 Visio 操作。
+```
+
+### 审查已有科研图
+
+```text
+使用 $visio-academic-diagrams 审查这张图。
+
+先检查科研逻辑与关系语义，
+再检查排版、字号、线宽、间距和导出风险。
+
+最后只针对发现的问题给出 Visio 修复步骤。
+没有源文件时，不要声称已经验证连接点、隐藏数据或字体嵌入。
+```
+
+---
+
+## 示例
+
+- [Paper → Multi-view](examples/paper-to-multiview/README.md)：同一研究内容分别形成阅读思维导图和算法流程图。
+- [Association ≠ Causation](examples/association-not-causation/README.md)：演示为什么相关关系不能自动画成因果箭头。
+- [Proof Dependencies](examples/proof-dependencies/README.md)：演示结论、引理与前提之间的依赖表达。
+- [Iterative Optimization](examples/iterative-optimization/walkthrough.zh-CN.md)：包含详细 Visio 操作步骤、尺寸和检查点的迭代流程示例。
+
+所有示例均为教学材料，不代表真实论文结果。
+
+---
+
+## 科研制图原则
+
+本项目不会把“SCI 风格”理解为一个固定模板。真正的出版要求取决于目标期刊、单栏 / 双栏宽度、最小可读字号、文件格式、位图分辨率、线宽、字体政策以及彩色 / 灰度要求。
+
+因此：
+
+- 不默认 A4 是论文插图尺寸
+- 不把截图作为默认终稿
+- 不把 SVG / PDF 后缀自动视为“完全矢量”
+- 不把一种出版社的要求套用到所有期刊
+
+相关入口：
+
+- [出版配置](references/publication-profiles.md)
+- [导出操作](references/operations-export.md)
+- [审图清单](references/review-checklist.md)
+
+---
+
+## 功能与可信边界
+
+当前版本：
+
+- 26 个功能族
+- 220 个能力 / 专题入口
+- 57 项来源登记
+- 74 项单元测试
+- 4 组主要结构化示例
+
+这些数字描述的是**本仓库当前的知识条目和测试资产**，不是 Microsoft Visio 的官方功能总数。
+
+另外：
+
+- 静态测试不能证明真实 Visio GUI 行为
+- 截图审查不能验证隐藏数据和字体嵌入
+- 论文理解不能替代领域专家判断
+- 结构校验不能证明因果、定理或实验设计正确
+- 具体菜单可能受版本、平台、许可证和语言影响
+
+完整范围见 [VALIDATION.md](VALIDATION.md)。
+
+---
+
+## 项目结构
+
+```text
+SKILL.md                       AI任务路由与核心约束
+references/                    论文理解、图种、Visio功能、操作与出版规则
+assets/                        能力表、Schema、模板和结构化记录
+examples/                      原创教学材料和完整操作示例
+scripts/                       检索、结构校验和发布辅助脚本
+tests/                         自动测试与人工验收场景
+docs/                          架构、安装、维护和发布说明
+agents/openai.yaml             可选宿主显示配置
+README.md / README.en.md       中文 / 英文项目说明
+LICENSE                        原创部分许可证
+SOURCES-NOTICE.md              外部来源与版权边界
+VALIDATION.md                  验证范围与已知限制
+```
+
+---
+
+## 本地检查
+
+在仓库根目录可运行：
 
 ```bash
 python scripts/validate_package.py
 python -m unittest discover -s tests -v
-python scripts/validate_research.py examples/paper-to-multiview/paper-model.json examples/paper-to-multiview/algorithm-plan.json
-python scripts/validate_bundle.py examples/paper-to-multiview/paper-model.json examples/paper-to-multiview/algorithm-plan.json examples/paper-to-multiview/algorithm-layout.json
-python scripts/build_release.py --output ../visio-academic-diagrams-v0.2.0.zip
+python scripts/validate_research.py   examples/paper-to-multiview/paper-model.json   examples/paper-to-multiview/algorithm-plan.json
 ```
 
-`build_release.py` 只打包清单内文件，并拒绝覆盖已有 ZIP。修改技能后必须审查并刷新清单；不能忽略哈希失配。静态检查和打包本身不联网。`validate_spec.py --output` 可显式写入一个新报告，其他校验默认只读。
+这些检查用于验证文件结构、Schema、引用和部分内部一致性，不等价于 Visio GUI 实机测试或科研正确性认证。
 
-当前 **74 项单元测试通过，4 组新示例通过配套检查**。未完成 Visio GUI 试做、真实论文专家评审、独立模型任务成功率评估或 GitHub 在线发布测试。完整范围见 [VALIDATION.md](VALIDATION.md)；不能把单元测试通过率作为科研理解准确率。
+---
 
-## 发布到 GitHub
+## 版本状态
 
-本目录已准备为公开仓库根目录；本地包的存在不表示远程仓库已经创建。见[发布说明](docs/GITHUB-PUBLISH.md)。发布需要你本机的 Git、GitHub CLI 及有建仓权限的账户。
+当前公开版本：
 
-```bash
-# 默认仅检查，无联网、无上传。
-python scripts/publish_github.py --owner YOUR_GITHUB_LOGIN --repo visio-academic-diagrams
-
-# 审查文件并在本机完成 gh 认证后，明确执行公开发布。
-python scripts/publish_github.py --owner YOUR_GITHUB_LOGIN --repo visio-academic-diagrams --public --execute
+```text
+v0.2.0
 ```
 
-脚本核对登录账户，仅复制哈希清单里的文件到隔离临时目录，创建**新**仓库，不覆盖同名仓库，不强制推送。上传后检查公开可见性和提交 SHA；只有成功才打印确认链接。不要在聊天、README 或公开 issue 中粘贴 token。
+后续更新重点包括：
 
-## 贡献与许可
+- 扩展 Visio 功能族的文档覆盖
+- 增加真实论文的匿名化评测案例
+- 增加更多科研图类型
+- 增强桌面版 / 网页版 / 许可差异提示
+- 增加更系统的科研制图审查规则
 
-先阅读 [CONTRIBUTING.md](CONTRIBUTING.md) 与 [SECURITY.md](SECURITY.md)。扩充功能应增加准确来源和可审查案例，而不是只增加条目数。真实论文和审稿材料默认放在此公开仓库之外。
+---
 
-本项目原创文档、代码和合成示例采用 [MIT](LICENSE)；微软、出版机构和其他外部内容仍遵守各自权利与条款，参见 [SOURCES-NOTICE.md](SOURCES-NOTICE.md)。本项目并非 Microsoft、OpenAI 或任何期刊的官方产品。来源编号 `[Mxx]`、`[Pxx]`、`[Rxx]`、`[Axx]` 的标题、链接和阅读深度见[来源登记](references/source-register.md)。
+## License
+
+本仓库原创文档、脚本与教学示例采用 [MIT License](LICENSE)。
+
+Microsoft Visio、Microsoft、期刊指南及外部文档的商标、版权和其他权利归各自权利人所有。  
+本项目不是 Microsoft、OpenAI 或任何期刊的官方产品。
+
+外部来源边界见 [SOURCES-NOTICE.md](SOURCES-NOTICE.md)。
